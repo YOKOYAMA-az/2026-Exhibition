@@ -12,10 +12,10 @@
 　　　　　　　３DCADを使った設計力はなかなかのもの
 
 ### オフィス外観
-<img src="images/IMG_20260423_090156.jpg" width="500">
+<img src="Images/IMG_20260423_090156.jpg" width="500">
 
 ### MANUVITでの改造
-<img src="images/IMG_20260423_101424.jpg" width="500">
+<img src="Images/IMG_20260423_101424.jpg" width="500">
 
 ## 🇪🇺 ヨーロッパ（ロンドン・パリ）
 ### 4月8日：ロンドン視察
