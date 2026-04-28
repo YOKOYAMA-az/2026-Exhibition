@@ -21,6 +21,8 @@
 
 <img src="Images/IMG_6478.JPG" width="700">
 <img src="Images/IMG_20260423_115725.jpg" width="700">
+
+### MANUVIT社 年配のパスカルと、若手のバティスタ
 <img src="Images/IMG_20260423_122313.jpg" width="700">
 <img src="Images/IMG_20260423_141346.jpg" width="700">
 
