@@ -65,6 +65,8 @@ GitHubの社内展開状況<br>
 　　　　　　　感動しながら、大きく頷いていた<br>
 <br>
 ===================================================================================<br>
+Image Created by ChatGPT<br>
+<img src="Images/ChatGPT Image.png" width="700">  <br>
 
 🚀 Git最小セット（これだけ覚えれば仕事できる）<br>
 <br>
