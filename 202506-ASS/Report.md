@@ -32,7 +32,7 @@
 ## Bishamonブース
 
 <br>
-<img src="Images/IMG_2403.JPG" width="390">
+<img src="Images/IMG_2403.JPG" width="800">
 <p style="color:#888888; font-size:1.05em;">朝礼の風景、さぁ気合を入れて頑張るぞ！。</p>
 <img src="Images/IMG_2430.JPG" width="800">
 <p style="color:#888888; font-size:1.05em;">Bishamonブース全景。左にフォークリフト用・中型トラック用リフト、中央にスライドリフト、右奥に白いEVを載せた4柱リフト。多くの来場者でにぎわった。</p>
@@ -144,9 +144,7 @@
 
 <br>
 <p>
-<img src="Images/IMG_2405.JPG" width="390">
-<img src="Images/IMG_2406.JPG" width="390">
-</p>
+<img src="Images/IMG_2405.JPG" width="390"></p>
 <p style="color:#888888; font-size:1.05em;">左：緊張のFuchida。右：水野。</p>
 
 バンザイのイーグルアドバンスは、社内の意見交換で誰からも名前が出なかった。
@@ -168,26 +166,26 @@
 
 <br>
 <p>
-<img src="Images/IMG_2424.JPG" width="390">
+<img src="Images/IMG_2424.JPG" width="800">
 <img src="Images/IMG_2414.JPG" width="800">
 </p>
 
 
 <p style="color:#888888; font-size:1.05em;">海外代理店をご招待、串カツ田中蒲田店を貸し切り宴会。</p>
-<img src="Images/IMG_2392.JPG" width="390">
+<img src="Images/IMG_2392.JPG" width="800">
 
 <br>
 <p>
-<img src="Images/IMG_2423.JPG" width="390">
-<p style="color:#888888; font-size:1.05em;">左：右側のとり元（居酒屋）ここはめっちゃおしゃれで美味かった。右：串カツ田中。</p>
+<img src="Images/IMG_2423.JPG" width="800">
+<p style="color:#888888; font-size:1.05em;">左：右側のとり元（居酒屋）ここはめっちゃおしゃれで美味かった。</p>
 </p>
 <p s
 
 <p>
 <img src="Images/IMG_2401.JPG" width="390">
 </p>
-展示会には、旧交を温めるという強力な機能がある。
-斎藤会長との再会もそうだ。やっかいで、ありがたい機能だ。
+展示会の一日は長い。
+。
 
 ---
 
