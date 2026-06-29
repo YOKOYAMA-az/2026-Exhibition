@@ -2,21 +2,28 @@
 
 ## 出張報告書
 
-| 出張先 | 報告書 |
-|--------|--------|
-| 🇩🇪 **ドイツ（LogiMAT 2025 ／ シュトゥットガルト）** | [**Report.md を見る**](2025LogiMat/Report.md) |
-| 🇯🇵 **日本（2025国際ロボット展 iREX2025 ／ 東京ビッグサイト）** | [**Report.md を見る**](202512-InterRobot/Report.md) |
-| 🇯🇵 **日本（Diet & Beauty Fair 2025 ／ 東京ビッグサイト）** | [**Report.md を見る**](%202025Diet%26BeautyFair/Report.md) |
-| 🇨🇳 **中国（Electric China 2025 ／ 上海・天津）** | [**Report.md を見る**](2025ElectricChina/Report.md) |
-| 🇯🇵 **日本（国際オートアフターマーケットEXPO 2026 ／ 東京ビッグサイト）** | [**Report.md を見る**](202602AfterMark/Report.md) |
-| 🇯🇵 **日本（生成AI World・ロボット展示会 2025 ／ 名古屋）** | [**Report.md を見る**](2025生成AI-World/Report.md) |
-| 🇹🇼 **台湾（Computex 2026 ／ 台北）** | [**Coputex2026-Report.md を見る**](2026May-Computex/Coputex2026-Report.md) |
-| 🇯🇵 **日本（Interop Tokyo 2026 ／ 幕張メッセ）** | [**Interop26-Report.md を見る**](202606Interop26/Interop26-Report.md) |
-| 🇺🇸 アメリカ（MODEX 2026 ／ アトランタ） | [Report_USA.md を見る](Report_USA.md) |
-| 🇪🇺 ヨーロッパ | [Report_EURO.md を見る](Report_EURO.md) |
-| 🇯🇵 **日本（Robot Technology Japan26 2026 ／ Aichi Sky Expo）** | [**RobotTechnologyJapan2606-Report.md を見る**](2026RobotTechnologyJapan26/RobotTechnologyJapan2606-Report.md) |
-| 🇯🇵 **日本（九州国際物流総合展2026 ／ マリンメッセ福岡）** | [**Report.md を見る**](202606-InnovationEXPO/Report.md) |
-| 🇯🇵 **日本（第38回 オートサービスショー2025 ／ 東京ビッグサイト）** | [**Report.md を見る**](202506-ASS/Report.md) |
+| 日付 | 出張先 | 参加者 | 写真枚数・容量 |
+|---|---|---|:---:|
+| 2025年3月11日 | [🇩🇪 ドイツ／LogiMAT 2025（シュトゥットガルト）](2025LogiMat/Report.md) | 山崎・中川・橋本GM | 89枚・16.5MB |
+| 2025年4月15日 | [🇨🇳 中国／Electric China 2025（上海・天津）](2025ElectricChina/Report.md) | 山崎・奥村 | 359枚・58.2MB |
+| 2025年6月18日 | [🇯🇵 日本／第38回 オートサービスショー2025（東京ビッグサイト）](202506-ASS/Report.md) | 山崎 | 23枚・3.8MB |
+| 2025年9月17日 | [🇯🇵 日本／Diet & Beauty Fair 2025（東京ビッグサイト）](%202025Diet%26BeautyFair/Report.md) | 山崎 | 12枚・1.4MB |
+| 2025年10月30日 | [🇯🇵 日本／生成AI World・ロボット展示会 2025（名古屋）](2025生成AI-World/Report.md) | 山崎 他 | 12枚・1.8MB |
+| 2025年12月3日 | [🇯🇵 日本／iREX2025 国際ロボット展（東京ビッグサイト）](202512-InterRobot/Report.md) | 山崎 | 27枚・3.8MB |
+| 2026年2月12日 | [🇯🇵 日本／国際オートアフターマーケットEXPO 2026（東京ビッグサイト）](202602AfterMark/Report.md) | 山崎 | 22枚・2.9MB |
+| 2026年4月 | [🇺🇸 アメリカ／MODEX 2026（アトランタ）](Report_USA.md) ／ [🇪🇺 ヨーロッパ](Report_EURO.md) | 山崎・橋本GM | 21枚・16.6MB |
+| 2026年6月1日 | [🇹🇼 台湾／Computex 2026（台北）](2026May-Computex/Coputex2026-Report.md) | 山崎 | 41枚・20.5MB |
+| 2026年6月11日 | [🇯🇵 日本／Interop Tokyo 2026（幕張メッセ）](202606Interop26/Interop26-Report.md) | 山崎 | 48枚・12.4MB |
+| 2026年6月12日 | [🇯🇵 日本／Robot Technology Japan 2026（Aichi Sky Expo）](2026RobotTechnologyJapan26/RobotTechnologyJapan2606-Report.md) | 山崎 | 77枚・17.0MB |
+| 2026年6月25日 | [🇯🇵 日本／九州国際物流総合展 INNOVATION EXPO 2026（マリンメッセ福岡）](202606-InnovationEXPO/Report.md) | 山崎・前川 | 40枚・8.0MB |
+
+<br>
+
+## 講演会レポート
+
+| 日付 | 講演・イベント | 講師 | 聴講者 |
+|---|---|---|:---:|
+| 2026年6月29日 | [ゲーミフィケーションで社会課題を解決する（経済界倶楽部 名古屋6月例会）](202606-Keizaikai-Yoshida/Lecture.md) | 吉田 直人氏（デジタル・エンターテイメント・アセット） | 山崎 |
 
 <br>
 ---
@@ -28,7 +35,7 @@ Issuesなど、アップする場合には、<br>
 Profile、写真、コメント、、、<br>
 何らかの手段で、個人が特定できるようにして下さい。<br>
 誰なのか分からないのは、困りますからね。<br>
-▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢<br>
+▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢▢<br>　
 
 
 写真のサイズについて<br>
