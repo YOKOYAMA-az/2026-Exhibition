@@ -14,6 +14,7 @@
 | 2026年2月12日 | [🇯🇵 日本／国際オートアフターマーケットEXPO 2026（東京ビッグサイト）](202602-AfterMark/Report.md) | 山崎 | 22枚・2.9MB |
 | 2026年4月 | [🇺🇸 アメリカ／MODEX 2026（アトランタ）](202604-USA-Euro/Report_USA.md) ／ [🇪🇺 ヨーロッパ](202604-USA-Euro/Report_EURO.md) | 山崎・橋本GM | 21枚・16.6MB |
 | 2026年4月13日 | [🇺🇸 米国／MODEX 2026（ジョージア・ワールド・コングレス・センター）](202604-MODEX/Report.md) | 山崎・橋本GM | 111枚・15.0MB |
+| 2026年4月20日 | [🇩🇪 ドイツ／ハノーバーメッセ 2026（ハノーバー見本市会場）](202604-HANNOVER/Report.md) | 山崎・橋本GM | 34枚・4.5MB |
 | 2026年6月1日 | [🇹🇼 台湾／Computex 2026（台北）](202605-Computex/Coputex2026-Report.md) | 山崎 | 41枚・20.5MB |
 | 2026年6月11日 | [🇯🇵 日本／Interop Tokyo 2026（幕張メッセ）](202606-Interop26/Interop26-Report.md) | 山崎 | 48枚・12.4MB |
 | 2026年6月12日 | [🇯🇵 日本／Robot Technology Japan 2026（Aichi Sky Expo）](202606-RobotTechJapan/RobotTechnologyJapan2606-Report.md) | 山崎 | 77枚・17.0MB |
@@ -54,15 +55,21 @@
 |---|---|---|
 | AMR | [AMRのコモディティ化](Knowledge/AMR/Commoditization.md) | 中国・インド・韓国・米国・オランダの競合動向。差別化軸の変化 |
 | ASRS | [シャトルシステム](Knowledge/ASRS/ShuttleSystem.md) | 棚登り型・シャトル型 ASRS の動向（HAI Robotics・ZS Robotics 他）|
-| Lift | [シザーリフト グローバルトレンド](Knowledge/Lift/ScissorLift_GlobalTrends.md) | Southworth 等グローバル競合・サブスク販売・安全機能強化 |
+| Lift | [シザーリフト グローバルトレンド](Knowledge/Lift/ScissorLift_GlobalTrends.md) | Southworth 等グローバル競合・GRADIN（欧州直販中国製）を含む |
+| Manufacturing | [テレスコピックシリンダー（台形ネジ式）](Knowledge/Manufacturing/TelescopicCylinder.md) | NEFF。3段台形ネジ・2本同調・ピット浅化。最重要技術発見（HM2026）|
+| IT | [IT・コンサルの製造業侵食](Knowledge/IT/IndustrialAI_Invasion.md) | Palantir・AWS・アクセンチュア。製造業とITの境界線消滅 |
 | Safety | [後方倒れ止め（手動ハンド用）](Knowledge/Safety/RearGuard_HandPallet.md) | 安全安心パック追加候補。橋本 GM 正式提案予定 |
 | Logistics | [トレーラー荷役自動化](Knowledge/Logistics/TrailerLoading_Automation.md) | Slip Robotics・LIFTPOINT・Superior Lifts の「最後のフィート」解決策 |
-| Humanoid | [ヒューマノイドの物流展示](Knowledge/Humanoid/Humanoid_Logistics.md) | Apptronik・Boston Dynamics。まだ実用段階ではないが物流展に登場 |
+| Humanoid | [ヒューマノイドの物流展示](Knowledge/Humanoid/Humanoid_Logistics.md) | カンフーダンス・犬型ロボット・ZeroErr。AMR×ヒューマノイド融合進む |
 
 ### 企業情報（Companies/）
 
 | 企業名 | ファイル | 関係性 |
 |---|---|---|
+| NEFF Gewindetriebe | [NEFF_Gewindetriebe.md](Companies/NEFF_Gewindetriebe.md) | ドイツ。テレスコシリンダー技術研究筆頭候補 |
+| GRADIN | [GRADIN.md](Companies/GRADIN.md) | 中国。**スギヤスのシザーリフト直接競合**。欧州CE認証取得済み |
+| ZeroErr | [ZeroErr.md](Companies/ZeroErr.md) | 中国。ヒューマノイド関節アクチュエータ（eRob）。「インテル入ってる」狙い |
+| CHANGRUI | [CHANGRUI.md](Companies/CHANGRUI.md) | 中国（山東省）。精密鋳造20年。BMW・COGNEX・FIAT納品実績 |
 | SEER Robotics | [SEER_Robotics.md](Companies/SEER_Robotics.md) | DMP 名義で名刺交換済み。継続情報交換対象 |
 | STAX | [STAX.md](Companies/STAX.md) | 低価格電動車。将来の価格戦略オプション（橋本 GM 担当）|
 | DEXORY | [DEXORY.md](Companies/DEXORY.md) | 英国。在庫スキャンロボット（Storage Health）|
@@ -73,12 +80,13 @@
 
 | ファイル | 内容 |
 |---|---|
-| [2026年トレンド](Trends/2026.md) | AMR コモディティ化・ヒューマノイド・サブスク販売・安全機能強化 他 8 項目 |
+| [2026年トレンド](Trends/2026.md) | AMR当たり前化・IT侵食・防衛産業参入・テレスコシリンダー・中国競合浸透 他 |
 
 ### アイデア（Ideas/）
 
 | ファイル | アイデア概要 |
 |---|---|
+| [テレスコシリンダー 超浅ピット埋め込みリフト](Ideas/TelescopicCylinder_ShallowPit.md) | NEFFの3段台形ネジを応用。後付け設置案件を広げる（優先度 高）|
 | [DR 自動搬送システム](Ideas/DR_AutoTransport_System.md) | ゴミ箱反転搬送コンセプトを DR 購入顧客への横展開に応用 |
 | [安全安心パック：後方倒れ止め](Ideas/Safety_Pack_RearGuard.md) | 手動ハンドへの後方倒れ止め追加。単価引き上げ貢献 |
 | [パレット段積み装置 国内市場投入](Ideas/Pallet_Stacker_Market.md) | ガスダンパー方式の段積み装置。「機が熟す頃」（Nippou）|
