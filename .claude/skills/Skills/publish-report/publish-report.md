@@ -538,3 +538,62 @@ publish-report.md による公開前チェックを完了しました。
 
 大きく直すのではなく、安心して公開できる状態に整えることを目的とする。
 
+
+
+
+## Git コミットメッセージ生成
+
+GitHub への push はユーザーが手動で行う。
+
+ただし、作業完了後に今回の変更内容を確認し、適切なコミットメッセージを自動生成する。
+
+### 生成ルール
+
+以下を確認する。
+
+- 変更されたファイル一覧
+- `Report.md` の変更内容
+- `README.md` の変更内容
+- `CHANGELOG.md` の変更内容
+- `Knowledge/` 配下の変更内容
+- 画像の追加・移動・削除・回転補正
+- 今回のレポート対象フォルダ名
+
+### コミットメッセージ形式
+
+原則として以下の形式にする。
+
+```bash
+git commit -m "docs(対象フォルダ名): 変更内容の要約"
+
+例
+
+git commit -m "docs(COMPUTEX2026): update report and image layout"
+
+git commit -m "docs(LogiMAT2025): polish report for publication"
+
+git commit -m "docs(ElectricChina2025): add review notes and archive knowledge"
+
+変更内容別の動詞
+新規作成：add
+追記：update
+編集・改善：polish
+公開前調整：prepare
+画像整理：organize images
+ナレッジ化：archive knowledge
+リンク修正：fix links
+
+最終出力
+作業完了後、以下を表示する。
+
+
+git status
+git add .
+git commit -m "docs(対象フォルダ名): 変更内容の要約"
+git push
+
+ただし、実際の Git 操作は実行しない。
+ユーザーが内容を確認してから手動で実行する。
+
+
+

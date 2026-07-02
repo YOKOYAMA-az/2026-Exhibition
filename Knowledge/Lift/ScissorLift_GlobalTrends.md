@@ -44,6 +44,19 @@ MODEX 2026 では AMR・ASRS と並んで、シザーリフト・パレットジ
 - 会場入口に展示された縦型リフト（バーチカルコンベア）が印象的だった
 - 床面積を取らずに高所への搬送を実現
 
+## ハノーバーメッセ 2026 での観察
+
+<img src="../../202604-HANNOVER/Images/IMG_20260421_124217.jpg" width="800">
+<p style="color:#888888; font-size:1.05em;">GRADIN（中国）ブース。シザーリフト・CVC・フォーポストリフトプラットフォームを展示。CE・AAA認証取得済み。（ハノーバーメッセ 2026）</p>
+
+| 企業 | 国 | 特徴 |
+|---|---|---|
+| GRADIN | 中国 | シザーリフト・垂直コンベア（CVC）・フォーポストリフトプラットフォームをラインナップ。CE・AAA認証取得。欧州に直販展開 |
+
+- マテハン・物流機器系の中国企業は数社の出展のみだった（MODEX 2026 と対比して少ない）
+- 橋本GM見立て：「以前はもっとあったが、ロジマットに流れている」
+- GRADINは価格・品質・認証を揃えた典型的な中国競合
+
 ## 技術・市場的示唆
 
 - **サブスクリプション提供**（Ballymore の $114〜$395/month）：日本市場でも導入可能性を検討する価値がある
@@ -59,17 +72,18 @@ MODEX 2026 では AMR・ASRS と並んで、シザーリフト・パレットジ
 
 ## 関連企業
 
-- [Southworth](../Companies/Southworth.md)
-- [Ballymore](../Companies/Ballymore.md)
-- [STAX](../Companies/STAX.md)
-- [Bishamon](../Companies/Bishamon.md)
+- [Southworth](../../Companies/Southworth.md)
+- [STAX](../../Companies/STAX.md)
+- [GRADIN](../../Companies/GRADIN.md)
 
 ## 関連レポート
 
 - [MODEX 2026 Report.md](../../202604-MODEX/Report.md)
+- [ハノーバーメッセ 2026 Report.md](../../202604-HANNOVER/Report.md)
 
 ## 更新履歴
 
 | 日付 | 内容 |
 |---|---|
 | 2026-07-02 | MODEX 2026 から初期作成 |
+| 2026-07-02 | ハノーバーメッセ 2026（GRADIN観察）を追記 |
