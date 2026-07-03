@@ -56,3 +56,24 @@
 ### Added
 - Report.md 新規作成（採用写真 53 枚）
 - README.md 目次テーブルに行追加
+
+---
+
+## 2026-07-03 build-report Publish Check（publish-report.md）
+
+### Fixed
+- `IMG_20260415_113706`・`IMG_20260415_113623`（Bishamon 写真）が4/14 BIC会食セクションに誤配置されていたのを4/15の正しい位置へ移動
+- 両写真を横並び（width="390"）のペアとして再配置
+- BIC 会食冒頭（`IMG_5805.JPG`）前の `<br>` タグ欠落を修正
+- Southern Root キャプションの閉じ括弧欠落を修正（`「Southern Root。` → `「Southern Root」。`）
+- 481〜484行付近の連続する空行・`<br>` タグの重複を整理
+
+### Checked
+- Markdown 構文：正常
+- 画像リンク切れ：なし（111枚）
+- OtherPictures 章：62件すべて掲載済み
+- README.md リンク：正常（111枚・15.0MB）
+- GitHub 表示互換：良好
+
+### Notes
+- unUsed/ 移動対象なし（OtherPictures 62件すべて参考価値あり）

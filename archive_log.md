@@ -48,6 +48,34 @@
 
 ---
 
+## 2026-07-03 MODEX 2026（追補）
+
+### 実行ファイル
+`202604-MODEX/Report.md`
+
+### 新規作成
+
+| ファイル | 内容 |
+|---|---|
+| `Companies/DEMATIC.md` | ドイツ系物流SI大手。大型ティルター・反転機デモ。DHL/Amazon/Walmart実績 |
+| `Ideas/SitePrint_FloorPrinting.md` | 床面±2mm精度印刷ロボット。設備導入前工程（墨出し）の自動化 |
+
+### 確認・更新不要
+
+| ファイル | 理由 |
+|---|---|
+| `Trends/2026.md` | Ballymore サブスク・SitePrint は初回アーカイブ（2026-07-02）で記録済み |
+| `Knowledge/Logistics/TrailerLoading_Automation.md` | Superior Lifts「Last Four Feet」は初回アーカイブで記録済み |
+| `Companies/Southworth.md` | コンベア組み込み型シザーリフト含む内容は初回アーカイブで記録済み |
+| `Ideas/DR_AutoTransport_System.md` | WM パッカー車観察は初回アーカイブで記録済み |
+
+### 抽出した重要テーマ
+
+1. **DEMATIC の存在感**：物流システムSIが上流を押さえると製品採用が決まる構造。DHL/Amazon/Walmart への導入実績が圧倒的
+2. **SitePrint の発想**：設備を売る前工程（墨出し）を自動化するという着眼点。スギヤスの付帯サービス提案に活用余地あり
+
+---
+
 ## 2026-07-02 MODEX 2026
 
 ### 実行ファイル

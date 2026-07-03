@@ -1,36 +1,30 @@
-# Release Notes — 202604-MODEX / Report.md
+# Release Notes — 202604-MODEX
 
 ## Version
-v1.0-publish-20260702-1238
+v1.1-publish-20260703
 
 ## Report
-`202604-MODEX/Report.md`
+202604-MODEX/Report.md
 
 ## Publish Status
 ✅ Ready for Publish
 
 ## Summary
-- make-report.md により Report.md 新規作成（採用写真 53 枚）
-- unUsed から復活写真46枚＋追加写真を追記 #1（🟥赤）として掲載
-- review-report.md により未掲載写真9枚を追記 #2（🟦青）として追加
-- 横向き写真 4 件を回転補正済み
-- 動画サムネイル 57 件＋未採用サムネイル 5 件を unUsed へ移動
-- publish-report.md による最終品質確認・文体修正 2 件
+- Bishamon 写真2枚を正しい時系列位置（4/15）へ移動
+- フォーマット修正（`<br>` 補完・空行整理・括弧修正）
+- 画像リンク全111件確認、切れなし
+- OtherPictures 62件確認、`unUsed/` 移動対象なし
 
 ## Quality Score
+
 | 項目 | 点数 |
 |---|---:|
-| Markdown 構文 | 100 |
-| 画像リンク | 100 |
-| 画像品質 | 99 |
-| 文章（文体・校正） | 98 |
-| GitHub 互換性 | 100 |
-| README 整合性 | 100 |
+| Markdown | 100 |
+| 画像 | 100 |
+| リンク | 100 |
+| 文章 | 97 |
+| GitHub互換 | 100 |
 | **総合** | **99** |
 
 ## Decision
 ✅ Ready for Publish
-
-## 採用写真数
-- Images/ 直下（採用）：111 枚・15.0 MB
-- unUsed：62 件
