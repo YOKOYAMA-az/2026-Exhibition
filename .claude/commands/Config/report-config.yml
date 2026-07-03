@@ -34,7 +34,7 @@ archive:
   companies_dir: Companies
   trends_dir: Trends
   ideas_dir: Ideas
-  archive_log: archive_log.md
+  archive_log: Reports/archive_log.md
 
 workflow:
   make: true
