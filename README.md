@@ -1,5 +1,9 @@
 <img src="Images/ChatGPT Image 2026年6月16日 10_06_32.jpg" width="900">  <br>
 
+📋 **[ナレッジ化 作業ログ（archive_log.md）](Reports/archive_log.md)**
+
+---
+
 ## 出張報告書
 
 | 日付 | 出張先 | 参加者 | 写真枚数・容量 | ナレッジ化 |
@@ -12,14 +16,14 @@
 | 2025年10月30日 | [🇯🇵 日本／生成AI World・ロボット展示会 2025（名古屋）](Reports/202510-GenerativeAI/Report.md) | 山崎 他 | 12枚・1.8MB | — |
 | 2025年12月3日 | [🇯🇵 日本／iREX2025 国際ロボット展（東京ビッグサイト）](Reports/202512-InterRobot/Report.md) | 山崎 | 27枚・3.8MB | — |
 | 2026年2月12日 | [🇯🇵 日本／国際オートアフターマーケットEXPO 2026（東京ビッグサイト）](Reports/202602-AfterMark/Report.md) | 山崎 | 22枚・2.9MB | — |
-| 2026年4月13日 | [🇺🇸 米国／MODEX 2026（ジョージア・ワールド・コングレス・センター）](Reports/202604-MODEX/Report.md) | 山崎・橋本GM | 111枚・15.0MB | [7/2](archive_log.md) |
-| 2026年4月20日 | [🇩🇪 ドイツ／ハノーバーメッセ 2026（ハノーバー見本市会場）](Reports/202604-HANNOVER/Report.md) | 山崎・橋本GM | 34枚・4.5MB | [7/2](archive_log.md) |
-| 2026年4月22日 | [🇫🇷 フランス／MANUVIT 工場視察・商談（La Ferté Macé）](Reports/202604-MANUVIT/Report.md) | 山崎・橋本GM | 28枚・3.3MB | [7/3](archive_log.md) |
-| 2026年4月24日 | [🇫🇷 フランス／IMS Manutention 工場視察・商談（Bonneval）](Reports/202604-IMS/Report.md) | 山崎・橋本GM | 20枚・2.5MB | [7/3](archive_log.md) |
+| 2026年4月13日 | [🇺🇸 米国／MODEX 2026（ジョージア・ワールド・コングレス・センター）](Reports/202604-MODEX/Report.md) | 山崎・橋本GM | 111枚・15.0MB | [7/2](Reports/archive_log.md) |
+| 2026年4月20日 | [🇩🇪 ドイツ／ハノーバーメッセ 2026（ハノーバー見本市会場）](Reports/202604-HANNOVER/Report.md) | 山崎・橋本GM | 34枚・4.5MB | [7/2](Reports/archive_log.md) |
+| 2026年4月22日 | [🇫🇷 フランス／MANUVIT 工場視察・商談（La Ferté Macé）](Reports/202604-MANUVIT/Report.md) | 山崎・橋本GM | 28枚・3.3MB | [7/3](Reports/archive_log.md) |
+| 2026年4月24日 | [🇫🇷 フランス／IMS Manutention 工場視察・商談（Bonneval）](Reports/202604-IMS/Report.md) | 山崎・橋本GM | 20枚・2.5MB | [7/3](Reports/archive_log.md) |
 | 2026年6月1日 | [🇹🇼 台湾／Computex 2026（台北）](Reports/202605-Computex/Coputex2026-Report.md) | 山崎 | 41枚・20.5MB | — |
 | 2026年6月11日 | [🇯🇵 日本／Interop Tokyo 2026（幕張メッセ）](Reports/202606-Interop26/Interop26-Report.md) | 山崎 | 48枚・12.4MB | — |
 | 2026年6月12日 | [🇯🇵 日本／Robot Technology Japan 2026（Aichi Sky Expo）](Reports/202606-RobotTechJapan/RobotTechnologyJapan2606-Report.md) | 山崎 | 77枚・17.0MB | — |
-| 2026年6月25日 | [🇯🇵 日本／九州国際物流総合展 INNOVATION EXPO 2026（マリンメッセ福岡）](Reports/202606-InnovationEXPO/Report.md) | 山崎・前川 | 34枚・4.8MB | [7/3](archive_log.md) |
+| 2026年6月25日 | [🇯🇵 日本／九州国際物流総合展 INNOVATION EXPO 2026（マリンメッセ福岡）](Reports/202606-InnovationEXPO/Report.md) | 山崎・前川 | 34枚・4.8MB | [7/3](Reports/archive_log.md) |
 
 <br>
 
