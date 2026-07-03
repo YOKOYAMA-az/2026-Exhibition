@@ -78,23 +78,24 @@ newer=$(find . \
 
 **変更なし**と判定された場合（`PUBLISH_SUMMARY.md` が存在し、上記のファイルがすべて `PUBLISH_SUMMARY.md` 以前のタイムスタンプ）：
 
-- review-report・publish-report・archive-report をすべてスキップする
-- 以下を出力して終了する：
+- **make-report は「写真・動画審査のみモード」で必ず実行する**（Report.md は変更しない）
+- review-report・publish-report・archive-report をスキップする
+- 以下を出力する：
 
 ```text
-前回ビルドから変更なし。スキップします。
+前回ビルドから変更なし。
 
 対象フォルダー：<フォルダー名>
 PUBLISH_SUMMARY.md 更新日時：<日時>
 
-再ビルドが必要な場合は、Report.md・Nippou.txt を編集するか、
-Images/ に写真を追加してから再実行してください。
+写真・動画審査のみ実行します。
+Report.md・Nippou.txt の変更があれば、再実行時に追記します。
 ```
 
 **変更あり**と判定された場合（`PUBLISH_SUMMARY.md` が存在しない、または上記ファイルのいずれかが `PUBLISH_SUMMARY.md` より新しい）：
 
 - 変更があったファイルを特定してログに残す
-- 通常通り各工程を実行する
+- 通常通り全工程を実行する
 
 ---
 
@@ -102,19 +103,26 @@ Images/ に写真を追加してから再実行してください。
 
 ### 1. make-report
 
-以下のいずれかに該当する場合に実行する。
+**写真・動画の審査（サムネイル抽出・採否判断・OtherPictures/unUsed への振り分け）は、毎回必ず実行する。**
 
-- `Report.md` が存在しない（初稿作成モード）
-- `Nippou.txt` が `PUBLISH_SUMMARY.md` より新しい（追記モード）
-- `Images/` に `PUBLISH_SUMMARY.md` より新しいファイルがある（追記モード）
-- 明示的に初稿作成・再生成を求められた
+実行モードは以下の条件で決まる：
 
-追記モードの場合、**make-report.md の指示に従い、既存の `Report.md` の内容を変更せず、追加分のみ末尾に追記する。**
+| 条件 | モード | Report.md の扱い |
+|---|---|---|
+| `Report.md` が存在しない | 初稿作成モード | 新規作成 |
+| `Nippou.txt` が `PUBLISH_SUMMARY.md` より新しい | 追記モード | 差分を末尾に追記 |
+| `Images/` に `PUBLISH_SUMMARY.md` より新しいファイルがある | 追記モード | 差分を末尾に追記 |
+| 明示的に初稿作成・再生成を求められた | 初稿作成モード | 新規作成 |
+| 上記いずれにも該当しない | **写真・動画審査のみ** | **変更しない** |
+
+追記モードの場合、make-report.md の指示に従い、既存の `Report.md` の内容を変更せず、追加分のみ末尾に追記する。
 
 目的。
 
-- Nippou.txt を中心に初稿作成（または追記）
-- 写真を時系列で配置（または追加）
+- 動画サムネイル抽出・動画本体削除（毎回）
+- 写真の採否判断・OtherPictures/unUsed への振り分け（毎回）
+- Nippou.txt を中心に初稿作成または追記
+- 写真を時系列で配置
 - 展示会概要を補足
 - README.md へ追加
 
@@ -208,7 +216,7 @@ publish-report の判定が `Ready for Publish` の場合のみ実行する。
 make-report は大量のテキスト・写真処理を行うため、コンテキストを大量に消費する。
 
 一括実行の途中でコンテキストが逼迫した場合は、その工程の完了をもって一旦区切りとする。
-次のセッションで `/build-report` を再実行すると、`Report.md` が既に存在するため make-report がスキップされ、残りの工程から継続できる。
+次のセッションで `/build-report` を再実行すると、make-report が「写真・動画審査のみモード」で実行され、その後 review-report 以降が継続される。
 
 ---
 
