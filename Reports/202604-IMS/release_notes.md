@@ -1,36 +1,28 @@
-# release_notes.md — 202604-IMS
+# Release Notes
 
----
+## Version
+v1.1-publish-20260707-1654
 
-**Version:** v1.0-publish-20260703
-**Status:** Ready for Publish
-**Date:** 2026-07-03
+## Report
+Report.md
 
----
+## Publish Status
+Ready for Publish
 
-## 概要
+## Summary
+- 7/7 DTR実機納入・社内実機確認を追記（差分ビルド）
+- 追記ブロックのMarkdown構文を確認
+- 追記ブロック内の画像リンク16件を確認
+- OtherPictures全23枚の掲載を確認
+- リポジトリREADME.mdの写真枚数・容量を更新
 
-IMS Manutention（フランス・Bonneval）工場視察・商談レポートの初版を公開。
-2026年4月24〜25日、山崎・橋本GM 同行。
+## Quality Score
+- Markdown: 100/100
+- Images: 98/100
+- Links: 100/100
+- Readability: 97/100
+- GitHub Compatibility: 100/100
+- Overall: 99/100
 
-## 掲載内容
-
-- ボンヌヴァル旧市街でのランチミーティング（ビンセント対応）
-- 工場見学（製造ライン・組み立てエリア）
-- DTR シリーズ製品紹介（1〜10トン 4タイプ、PG ドライブ採用）
-- 製品デモ（動画サムネイル 3枚）
-- アクション一覧（橋本GM ラインナップ整理・輸入コスト試算）
-
-## 画像
-
-| 分類 | 枚数 | 容量 |
-|---|:---:|:---:|
-| 採用（Images/ 直下） | 20枚 | 2.5MB |
-| OtherPictures | 10枚 | — |
-| unUsed（除外） | 2枚 | — |
-
-## 特記事項
-
-- 動画 3本はサムネイル抽出後に削除済み
-- [要確認：DTR シリーズとスギヤス既存ラインナップの重複有無]
-- [要確認：日本市場向け安全規格対応（労働安全衛生法・型式検定）]
+## Decision
+✅ Ready for Publish

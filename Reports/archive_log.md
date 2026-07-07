@@ -310,3 +310,27 @@
 | [`KnowledgeBase/Ideas/Safety_Pack_RearGuard.md`](../KnowledgeBase/Ideas/Safety_Pack_RearGuard.md) | 安全安心パック（後方倒れ止め）|
 | [`KnowledgeBase/Ideas/Pallet_Stacker_Market.md`](../KnowledgeBase/Ideas/Pallet_Stacker_Market.md) | パレット段積み装置 |
 | [`KnowledgeBase/Trends/2026.md`](../KnowledgeBase/Trends/2026.md) | 2026年トレンド初期作成 |
+
+---
+
+## 2026-07-07 archive 実行（202604-IMS 追補）
+
+### 実行ファイル
+[`Reports/202604-IMS/Report.md`](202604-IMS/Report.md)（7/7 追記ブロック：DTR実機納入・社内実機確認）
+
+### 追記更新
+
+| ファイル | 追記内容 |
+|---|---|
+| [`KnowledgeBase/Companies/IMS_Manutention.md`](../KnowledgeBase/Companies/IMS_Manutention.md) | 実機納入・社内実機確認セクション追加。駆動方式（チェーン式・低床）・バッテリー別台車ドッキング・無負荷時の駆動輪リフトの技術観察 |
+| [`KnowledgeBase/Ideas/IMS_DTR_ImportDistribution.md`](../KnowledgeBase/Ideas/IMS_DTR_ImportDistribution.md) | 実機確認結果セクション追加。Bishamonトラック牽引テスト成功（目論見どおり）。ステータスを「実機納入・牽引テスト完了」に更新 |
+
+### 抽出した重要テーマ
+
+- DTR実機の設計思想：チェーン駆動による低床・グリップ両立、バッテリー台車ドッキング、無負荷時の駆動輪リフト
+- 社長以下、経営層・技術部合同での実機確認 → 社内推進体制が整いつつある
+
+### 次回深掘り候補
+
+- 即席アタッチメントの正式設計（Bishamonトラック牽引用）
+- 牽引テスト結果を踏まえた対象製品・用途の拡大検討

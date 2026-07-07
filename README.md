@@ -21,7 +21,7 @@
 | 2026年4月17日 | [🇺🇸 米国／BIC（Bishamon Industries Corporation）訪問・エンジェルス観戦（カリフォルニア州）](Reports/202604-BIC/Report.md) | 山崎・橋本GM | 24枚・3.3MB | [7/6](Reports/archive_log.md) |
 | 2026年4月20日 | [🇩🇪 ドイツ／ハノーバーメッセ 2026（ハノーバー見本市会場）](Reports/202604-HANNOVER/Report.md) | 山崎・橋本GM | 34枚・4.5MB | [7/2](Reports/archive_log.md) |
 | 2026年4月22日 | [🇫🇷 フランス／MANUVIT 工場視察・商談（La Ferté Macé）](Reports/202604-MANUVIT/Report.md) | 山崎・橋本GM | 28枚・3.3MB | [7/3](Reports/archive_log.md) |
-| 2026年4月24日 | [🇫🇷 フランス／IMS Manutention 工場視察・商談（Bonneval）](Reports/202604-IMS/Report.md) | 山崎・橋本GM | 20枚・2.5MB | [7/3](Reports/archive_log.md) |
+| 2026年4月24日 | [🇫🇷 フランス／IMS Manutention 工場視察・商談（Bonneval）](Reports/202604-IMS/Report.md) | 山崎・橋本GM | 21枚・2.7MB | [7/3・7/7](Reports/archive_log.md) |
 | 2026年6月1日 | [🇹🇼 台湾／Computex 2026（台北）](Reports/202605-Computex/Coputex2026-Report.md) | 山崎 | 41枚・20.5MB | — |
 | 2026年6月11日 | [🇯🇵 日本／Interop Tokyo 2026（幕張メッセ）](Reports/202606-Interop26/Interop26-Report.md) | 山崎 | 48枚・12.4MB | — |
 | 2026年6月12日 | [🇯🇵 日本／Robot Technology Japan 2026（Aichi Sky Expo）](Reports/202606-RobotTechJapan/RobotTechnologyJapan2606-Report.md) | 山崎 | 77枚・17.0MB | — |
@@ -56,66 +56,66 @@
 
 展示会・出張レポートから抽出した技術テーマ・企業情報・市場変化・商品開発アイデアの蓄積。
 
-> 最終更新列は **2026-07-06 09:36** 時点の相対時間です。
+> 最終更新列は **2026-07-07 16:58** 時点の相対時間です。
 
 ### 技術テーマ（Knowledge/）
 
 | カテゴリ | ファイル | 概要 | 最終更新 |
 |---|---|---|:---:|
-| AMR | [AMRのコモディティ化](KnowledgeBase/Knowledge/AMR/Commoditization.md) | 中国・インド・韓国・米国・オランダの競合動向。差別化軸の変化 | Today |
-| AMR | [Floor SLAM 誘導方式](KnowledgeBase/Knowledge/AMR/FloorSLAM.md) | 床面の傷・汚れを特徴点として自己位置推定。磁気テープ不要。四恩システム（久留米）が製品化 | Today |
-| ASRS | [シャトルシステム](KnowledgeBase/Knowledge/ASRS/ShuttleSystem.md) | 棚登り型・シャトル型 ASRS の動向（HAI Robotics・ZS Robotics 他）| Today |
-| Lift | [シザーリフト グローバルトレンド](KnowledgeBase/Knowledge/Lift/ScissorLift_GlobalTrends.md) | Southworth 等グローバル競合・GRADIN（欧州直販中国製）を含む | Today |
-| Manufacturing | [テレスコピックシリンダー（台形ネジ式）](KnowledgeBase/Knowledge/Manufacturing/TelescopicCylinder.md) | NEFF。3段台形ネジ・2本同調・ピット浅化。最重要技術発見（HM2026）| Today |
-| IT | [IT・コンサルの製造業侵食](KnowledgeBase/Knowledge/IT/IndustrialAI_Invasion.md) | Palantir・AWS・アクセンチュア。製造業とITの境界線消滅 | Today |
-| Safety | [後方倒れ止め（手動ハンド用）](KnowledgeBase/Knowledge/Safety/RearGuard_HandPallet.md) | 安全安心パック追加候補。橋本 GM 正式提案予定 | Today |
-| Logistics | [トレーラー荷役自動化](KnowledgeBase/Knowledge/Logistics/TrailerLoading_Automation.md) | Slip Robotics・LIFTPOINT・Superior Lifts の「最後のフィート」解決策 | Today |
-| Humanoid | [ヒューマノイドの物流展示](KnowledgeBase/Knowledge/Humanoid/Humanoid_Logistics.md) | カンフーダンス・犬型ロボット・ZeroErr。AMR×ヒューマノイド融合進む | Today |
+| AMR | [AMRのコモディティ化](KnowledgeBase/Knowledge/AMR/Commoditization.md) | 中国・インド・韓国・米国・オランダの競合動向。差別化軸の変化 | Yesterday |
+| AMR | [Floor SLAM 誘導方式](KnowledgeBase/Knowledge/AMR/FloorSLAM.md) | 床面の傷・汚れを特徴点として自己位置推定。磁気テープ不要。四恩システム（久留米）が製品化 | Yesterday |
+| ASRS | [シャトルシステム](KnowledgeBase/Knowledge/ASRS/ShuttleSystem.md) | 棚登り型・シャトル型 ASRS の動向（HAI Robotics・ZS Robotics 他）| Yesterday |
+| Lift | [シザーリフト グローバルトレンド](KnowledgeBase/Knowledge/Lift/ScissorLift_GlobalTrends.md) | Southworth 等グローバル競合・GRADIN（欧州直販中国製）を含む | Yesterday |
+| Manufacturing | [テレスコピックシリンダー（台形ネジ式）](KnowledgeBase/Knowledge/Manufacturing/TelescopicCylinder.md) | NEFF。3段台形ネジ・2本同調・ピット浅化。最重要技術発見（HM2026）| Yesterday |
+| IT | [IT・コンサルの製造業侵食](KnowledgeBase/Knowledge/IT/IndustrialAI_Invasion.md) | Palantir・AWS・アクセンチュア。製造業とITの境界線消滅 | Yesterday |
+| Safety | [後方倒れ止め（手動ハンド用）](KnowledgeBase/Knowledge/Safety/RearGuard_HandPallet.md) | 安全安心パック追加候補。橋本 GM 正式提案予定 | Yesterday |
+| Logistics | [トレーラー荷役自動化](KnowledgeBase/Knowledge/Logistics/TrailerLoading_Automation.md) | Slip Robotics・LIFTPOINT・Superior Lifts の「最後のフィート」解決策 | Yesterday |
+| Humanoid | [ヒューマノイドの物流展示](KnowledgeBase/Knowledge/Humanoid/Humanoid_Logistics.md) | カンフーダンス・犬型ロボット・ZeroErr。AMR×ヒューマノイド融合進む | Yesterday |
 
 ### 企業情報（Companies/）
 
 | 企業名 | ファイル | 関係性 | 最終更新 |
 |---|---|---|:---:|
-| NEFF Gewindetriebe | [NEFF_Gewindetriebe.md](KnowledgeBase/Companies/NEFF_Gewindetriebe.md) | ドイツ。テレスコシリンダー技術研究筆頭候補 | Today |
-| GRADIN | [GRADIN.md](KnowledgeBase/Companies/GRADIN.md) | 中国。**スギヤスのシザーリフト直接競合**。欧州CE認証取得済み | Today |
-| ZeroErr | [ZeroErr.md](KnowledgeBase/Companies/ZeroErr.md) | 中国。ヒューマノイド関節アクチュエータ（eRob）。「インテル入ってる」狙い | Today |
-| CHANGRUI | [CHANGRUI.md](KnowledgeBase/Companies/CHANGRUI.md) | 中国（山東省）。精密鋳造20年。BMW・COGNEX・FIAT納品実績 | Today |
-| SEER Robotics | [SEER_Robotics.md](KnowledgeBase/Companies/SEER_Robotics.md) | DMP 名義で名刺交換済み。継続情報交換対象 | Today |
-| STAX | [STAX.md](KnowledgeBase/Companies/STAX.md) | 低価格電動車。将来の価格戦略オプション（橋本 GM 担当）| Today |
-| DEXORY | [DEXORY.md](KnowledgeBase/Companies/DEXORY.md) | 英国。在庫スキャンロボット（Storage Health）| Today |
-| Southworth | [Southworth.md](KnowledgeBase/Companies/Southworth.md) | 米国。**スギヤスの直接競合**（シザーリフト・ティルター）| Today |
-| BIC | [BIC.md](KnowledgeBase/Companies/BIC.md) | **Bishamon Industries Corporation**。Ontario, CA・1986年創業・20名。Amazon・Walmart・Tesla の引き合いをリソース不足で断り続けている | Today |
-| DEMATIC | [DEMATIC.md](KnowledgeBase/Companies/DEMATIC.md) | ドイツ系物流SI大手。DHL・Amazon・Walmart への大規模導入実績 | Today |
-| 四恩システム | [四恩システム.md](KnowledgeBase/Companies/四恩システム.md) | 久留米・40名。Floor SLAM 搭載 AGV。スバルに30台導入。技術提携候補 | Today |
-| ナブテスコ | [ナブテスコ.md](KnowledgeBase/Companies/ナブテスコ.md) | 後付け電動アシストユニット。自動車業界で急成長。IMS との差別化軸 | Today |
-| infonerv | [infonerv.md](KnowledgeBase/Companies/infonerv.md) | 東大発。Claude 活用 AI 在庫管理。ON SEVEN DAYS 導入済み | Today |
-| ヤマハ発動機 | [ヤマハ発動機_PAXIS.md](KnowledgeBase/Companies/ヤマハ発動機_PAXIS.md) | 車いすインホイールモータの物流横展開 PAXIS。コア技術転用の好例 | Today |
-| MANUVIT | [MANUVIT.md](KnowledgeBase/Companies/MANUVIT.md) | 仏・1981年創業・Variable Geometry 特許。60kg SFL 型が輸入・OEM 候補筆頭 | Today |
+| NEFF Gewindetriebe | [NEFF_Gewindetriebe.md](KnowledgeBase/Companies/NEFF_Gewindetriebe.md) | ドイツ。テレスコシリンダー技術研究筆頭候補 | Yesterday |
+| GRADIN | [GRADIN.md](KnowledgeBase/Companies/GRADIN.md) | 中国。**スギヤスのシザーリフト直接競合**。欧州CE認証取得済み | Yesterday |
+| ZeroErr | [ZeroErr.md](KnowledgeBase/Companies/ZeroErr.md) | 中国。ヒューマノイド関節アクチュエータ（eRob）。「インテル入ってる」狙い | Yesterday |
+| CHANGRUI | [CHANGRUI.md](KnowledgeBase/Companies/CHANGRUI.md) | 中国（山東省）。精密鋳造20年。BMW・COGNEX・FIAT納品実績 | Yesterday |
+| SEER Robotics | [SEER_Robotics.md](KnowledgeBase/Companies/SEER_Robotics.md) | DMP 名義で名刺交換済み。継続情報交換対象 | Yesterday |
+| STAX | [STAX.md](KnowledgeBase/Companies/STAX.md) | 低価格電動車。将来の価格戦略オプション（橋本 GM 担当）| Yesterday |
+| DEXORY | [DEXORY.md](KnowledgeBase/Companies/DEXORY.md) | 英国。在庫スキャンロボット（Storage Health）| Yesterday |
+| Southworth | [Southworth.md](KnowledgeBase/Companies/Southworth.md) | 米国。**スギヤスの直接競合**（シザーリフト・ティルター）| Yesterday |
+| BIC | [BIC.md](KnowledgeBase/Companies/BIC.md) | **Bishamon Industries Corporation**。Ontario, CA・1986年創業・20名。Amazon・Walmart・Tesla の引き合いをリソース不足で断り続けている | Yesterday |
+| DEMATIC | [DEMATIC.md](KnowledgeBase/Companies/DEMATIC.md) | ドイツ系物流SI大手。DHL・Amazon・Walmart への大規模導入実績 | Yesterday |
+| 四恩システム | [四恩システム.md](KnowledgeBase/Companies/四恩システム.md) | 久留米・40名。Floor SLAM 搭載 AGV。スバルに30台導入。技術提携候補 | Yesterday |
+| ナブテスコ | [ナブテスコ.md](KnowledgeBase/Companies/ナブテスコ.md) | 後付け電動アシストユニット。自動車業界で急成長。IMS との差別化軸 | Yesterday |
+| infonerv | [infonerv.md](KnowledgeBase/Companies/infonerv.md) | 東大発。Claude 活用 AI 在庫管理。ON SEVEN DAYS 導入済み | Yesterday |
+| ヤマハ発動機 | [ヤマハ発動機_PAXIS.md](KnowledgeBase/Companies/ヤマハ発動機_PAXIS.md) | 車いすインホイールモータの物流横展開 PAXIS。コア技術転用の好例 | Yesterday |
+| MANUVIT | [MANUVIT.md](KnowledgeBase/Companies/MANUVIT.md) | 仏・1981年創業・Variable Geometry 特許。60kg SFL 型が輸入・OEM 候補筆頭 | Yesterday |
 | IMS Manutention | [IMS_Manutention.md](KnowledgeBase/Companies/IMS_Manutention.md) | 仏・1973年創業。DTR 電動牽引トラクター専業。1〜10トン・PG Drive 採用 | Today |
-| EP Equipment | [EP_Equipment.md](KnowledgeBase/Companies/EP_Equipment.md) | 中国・杭州。7工場・4000名・30万台/年。AMR 150台実稼働。上場企業（603194） | Today |
+| EP Equipment | [EP_Equipment.md](KnowledgeBase/Companies/EP_Equipment.md) | 中国・杭州。7工場・4000名・30万台/年。AMR 150台実稼働。上場企業（603194） | Yesterday |
 
 ### トレンド（Trends/）
 
 | ファイル | 内容 | 最終更新 |
 |---|---|:---:|
-| [2025年トレンド](KnowledgeBase/Trends/2025.md) | AMRの実工場稼働フェーズ移行・Ubuntu/ROS2主流化・中国電動フォークリフト量産体制確立 | Today |
-| [2026年トレンド](KnowledgeBase/Trends/2026.md) | AMR当たり前化・IT侵食・Floor SLAM・電動アシスト急拡大・AI在庫管理実装・BIC北米訪問（ブランド×リソース乖離）他 | Today |
+| [2025年トレンド](KnowledgeBase/Trends/2025.md) | AMRの実工場稼働フェーズ移行・Ubuntu/ROS2主流化・中国電動フォークリフト量産体制確立 | Yesterday |
+| [2026年トレンド](KnowledgeBase/Trends/2026.md) | AMR当たり前化・IT侵食・Floor SLAM・電動アシスト急拡大・AI在庫管理実装・BIC北米訪問（ブランド×リソース乖離）他 | Yesterday |
 
 ### アイデア（Ideas/）
 
 | ファイル | アイデア概要 | 最終更新 |
 |---|---|:---:|
-| [テレスコシリンダー 超浅ピット埋め込みリフト](KnowledgeBase/Ideas/TelescopicCylinder_ShallowPit.md) | NEFFの3段台形ネジを応用。後付け設置案件を広げる（優先度 高）| Today |
-| [DR 自動搬送システム](KnowledgeBase/Ideas/DR_AutoTransport_System.md) | ゴミ箱反転搬送コンセプトを DR 購入顧客への横展開に応用 | Today |
-| [安全安心パック：後方倒れ止め](KnowledgeBase/Ideas/Safety_Pack_RearGuard.md) | 手動ハンドへの後方倒れ止め追加。単価引き上げ貢献 | Today |
-| [パレット段積み装置 国内市場投入](KnowledgeBase/Ideas/Pallet_Stacker_Market.md) | ガスダンパー方式の段積み装置。「機が熟す頃」（Nippou）| Today |
-| [SitePrint 床面印刷ロボット](KnowledgeBase/Ideas/SitePrint_FloorPrinting.md) | 床面±2mm精度で墨出しを自動化。設備導入前工程の付帯サービス化 | Today |
-| [ABMへの Floor SLAM 誘導方式追加](KnowledgeBase/Ideas/FloorSLAM_ABM_NavigationOption.md) | 四恩システムとの技術提携で ABM の誘導方式をビニールテープ・QR・Floor SLAM に拡張 | Today |
-| [MANUVIT 60kg SFL 型 輸入・OEM 検討](KnowledgeBase/Ideas/MANUVIT_60kgSFL_Import.md) | 山崎構想と合致する製品が MANUVIT に実在。輸入・OEM・ライセンスの3オプション整理 | Today |
+| [テレスコシリンダー 超浅ピット埋め込みリフト](KnowledgeBase/Ideas/TelescopicCylinder_ShallowPit.md) | NEFFの3段台形ネジを応用。後付け設置案件を広げる（優先度 高）| Yesterday |
+| [DR 自動搬送システム](KnowledgeBase/Ideas/DR_AutoTransport_System.md) | ゴミ箱反転搬送コンセプトを DR 購入顧客への横展開に応用 | Yesterday |
+| [安全安心パック：後方倒れ止め](KnowledgeBase/Ideas/Safety_Pack_RearGuard.md) | 手動ハンドへの後方倒れ止め追加。単価引き上げ貢献 | Yesterday |
+| [パレット段積み装置 国内市場投入](KnowledgeBase/Ideas/Pallet_Stacker_Market.md) | ガスダンパー方式の段積み装置。「機が熟す頃」（Nippou）| Yesterday |
+| [SitePrint 床面印刷ロボット](KnowledgeBase/Ideas/SitePrint_FloorPrinting.md) | 床面±2mm精度で墨出しを自動化。設備導入前工程の付帯サービス化 | Yesterday |
+| [ABMへの Floor SLAM 誘導方式追加](KnowledgeBase/Ideas/FloorSLAM_ABM_NavigationOption.md) | 四恩システムとの技術提携で ABM の誘導方式をビニールテープ・QR・Floor SLAM に拡張 | Yesterday |
+| [MANUVIT 60kg SFL 型 輸入・OEM 検討](KnowledgeBase/Ideas/MANUVIT_60kgSFL_Import.md) | 山崎構想と合致する製品が MANUVIT に実在。輸入・OEM・ライセンスの3オプション整理 | Yesterday |
 | [IMS DTR シリーズ 輸入・販売代理検討](KnowledgeBase/Ideas/IMS_DTR_ImportDistribution.md) | 重量物搬送 1〜10 トン。PG Drive 採用。代理店契約・型式検定対応が次のステップ | Today |
-| [フリーロケーション AMR スタッキング](KnowledgeBase/Ideas/FreeLocation_AMR_Stacking.md) | EP社で150台実稼働確認。固定棚なし・鉄製パレット自律段積み。スギヤス製品連携の要件化 | Today |
-| [簡易ティーチング式電動車](KnowledgeBase/Ideas/EasyTeaching_ElectricVehicle.md) | EP社ショールームで発見。フルAMRより低コスト。山崎部長が「相当魅力的」と評価 | Today |
-| [BIC 協業による北米展開](KnowledgeBase/Ideas/BIC_NorthAmerica_Collaboration.md) | Bishamon ブランド × スギヤス技術力。Amazon 等大手案件への共同参画・複数代理店化スキーム | Today |
+| [フリーロケーション AMR スタッキング](KnowledgeBase/Ideas/FreeLocation_AMR_Stacking.md) | EP社で150台実稼働確認。固定棚なし・鉄製パレット自律段積み。スギヤス製品連携の要件化 | Yesterday |
+| [簡易ティーチング式電動車](KnowledgeBase/Ideas/EasyTeaching_ElectricVehicle.md) | EP社ショールームで発見。フルAMRより低コスト。山崎部長が「相当魅力的」と評価 | Yesterday |
+| [BIC 協業による北米展開](KnowledgeBase/Ideas/BIC_NorthAmerica_Collaboration.md) | Bishamon ブランド × スギヤス技術力。Amazon 等大手案件への共同参画・複数代理店化スキーム | Yesterday |
 
 <br>
 
