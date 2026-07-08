@@ -8,6 +8,17 @@
 
 ---
 
+## LogiMAT 2025での出会い（初回接触）
+
+<br>
+<p>
+<img src="../../Reports/202503-LogiMat/Images/L-IMS2.jpg" width="390">
+<img src="../../Reports/202503-LogiMat/Images/L-IMS3.jpg" width="390">
+</p>
+<p style="color:#888888; font-size:1.05em;">（左）LogiMAT 2025のIMSブース。「Fahrbare Lösung für Glaswagen」「Handling Lösungen」を掲げ、電動牽引台車・スタッカーを展示。（右）ブースにて。左から現地担当者、山崎、同行メンバー（LogiMAT 2025 / 2026年3月13日）</p>
+
+DTRシリーズとの最初の出会いはLogiMAT 2025のIMSブースだった。エルゴノミクス機器（EZ Loaderなど）も含めて展示しており、山崎が気になっていた製品として記憶に残った。この出会いが、後のBonneval工場視察・実機納入（2026年4月・7月）へとつながっている。
+
 ## 事業内容
 
 電動牽引トラクター専業メーカー。

@@ -21,11 +21,16 @@
 </p>
 <p style="color:#888888; font-size:1.05em;">STAX のブース。（右）ステンレス合金製パレットトラック（冷凍庫対応 ≥−18℃）のポンプ機構。黄色の標準モデルと並んで展示。「とにかく安い」が最大の武器（MODEX 2026）</p>
 
-- 橋本 GM が前年（2025年）に売り込みを受けていたメーカー
+<br>
+<img src="../../Reports/202503-LogiMat/Images/IMG_1472.JPG" width="800">
+<p style="color:#888888; font-size:1.05em;">LogiMAT 2025でのSTAXXブース（初回接触）。「Make Your Job Easier」「A Reliable Supplier, A Long-Term Partner」と欧州向けブランディングを打ち出し、年間30万台の販売実績を誇示していた（LogiMAT 2025 / 2026年3月12日）</p>
+
+- 橋本 GM が前年（2025年）に売り込みを受けていたメーカー。初回接触はLogiMAT 2025（2026年3月）のブース訪問だったと判明
 - 電動パレットトラック・電動車全般
 - ステンレス合金製の冷凍庫対応モデル（≥−18℃）を展示
 - Nippou：「とにかく安い、とのことである」
 - MODEX では担当者と3ショット写真撮影済み
+- LogiMATでは中国メーカーの欧州進出トレンドの象徴として観察（EP社・HUAGANG・SEER ROBOTICS・Yi-Liftと並ぶ）
 
 ## 技術領域
 

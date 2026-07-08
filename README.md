@@ -11,7 +11,7 @@
 |  | 日付 | 出張先 | 参加者 | 写真枚数・容量 | ナレッジ化 |
 |:---:|---|---|---|:---:|:---:|
 |  | 2025年1月31日 | [🇯🇵 日本／福島トヨペット 南会津店 視察](Reports/202501-FukushimaToyopet/Report.md) | 山崎・廣田GM | 10枚・1.7MB | — |
-|  | 2025年3月11日 | [🇩🇪 ドイツ／LogiMAT 2025（シュトゥットガルト）](Reports/202503-LogiMat/Report.md) | 山崎・中川・橋本GM | 89枚・16.5MB | — |
+| ★ | 2025年3月11日 | [🇩🇪 ドイツ／LogiMAT 2025（シュトゥットガルト）](Reports/202503-LogiMat/Report.md) | 山崎・中川・橋本GM | 89枚・13.8MB | [7/8](Reports/archive_log.md) |
 |  | 2025年4月15日 | [🇨🇳 中国／Electric China 2025（上海・天津）](Reports/202504-ElectricChina/Report.md) | 山崎・奥村 | 359枚・58.2MB | — |
 |  | 2025年6月18日 | [🇯🇵 日本／第38回 オートサービスショー2025（東京ビッグサイト）](Reports/202506-ASS/Report.md) | 山崎 | 23枚・3.8MB | — |
 |  | 2025年9月17日 | [🇯🇵 日本／Diet & Beauty Fair 2025（東京ビッグサイト）](Reports/202509-DietBeautyFair/Report.md) | 山崎 | 12枚・1.4MB | — |
@@ -60,7 +60,7 @@
 
 展示会・出張レポートから抽出した技術テーマ・企業情報・市場変化・商品開発アイデアの蓄積。
 
-> 最終更新列は **2026-07-08 14:20** 時点の相対時間です（実質的な編集コミットが無いファイルは、参考として最後に触れた一括操作コミットの日付を表示）。★ = 過去3日以内に実質的な更新　○ = 過去7日以内（3日超）に実質的な更新
+> 最終更新列は **2026-07-08 14:55** 時点の相対時間です（実質的な編集コミットが無いファイルは、参考として最後に触れた一括操作コミットの日付を表示）。★ = 過去3日以内に実質的な更新　○ = 過去7日以内（3日超）に実質的な更新
 
 ### 技術テーマ（Knowledge/）
 
@@ -74,7 +74,9 @@
 |  | IT | [IT・コンサルの製造業侵食](KnowledgeBase/Knowledge/IT/IndustrialAI_Invasion.md) | Palantir・AWS・アクセンチュア。製造業とITの境界線消滅 | 4 days ago |
 | ○ | Safety | [後方倒れ止め（手動ハンド用）](KnowledgeBase/Knowledge/Safety/RearGuard_HandPallet.md) | 安全安心パック追加候補。橋本 GM 正式提案予定 | 5 days ago |
 | ○ | Logistics | [トレーラー荷役自動化](KnowledgeBase/Knowledge/Logistics/TrailerLoading_Automation.md) | Slip Robotics・LIFTPOINT・Superior Lifts の「最後のフィート」解決策 | 5 days ago |
+| ★ | Logistics | [牽引台車のカーブ追従機構](KnowledgeBase/Knowledge/Logistics/TowCart_CurveTracking.md) | 複数軸ピボット連結による自動追従。BX輸送台車への応用検討 | Today |
 |  | Humanoid | [ヒューマノイドの物流展示](KnowledgeBase/Knowledge/Humanoid/Humanoid_Logistics.md) | カンフーダンス・犬型ロボット・ZeroErr。AMR×ヒューマノイド融合進む | 4 days ago |
+| ★ | Manufacturing | [ドライブユニットのオープンモジュール化](KnowledgeBase/Knowledge/Manufacturing/DriveUnit_OpenModularization.md) | モーター＋コントローラー＋バッテリーが部品化。業界分業構造を再編する最重要発見（LogiMAT 2025） | Today |
 
 ### 企業情報（Companies/）
 
@@ -85,7 +87,7 @@
 |  | ZeroErr | [ZeroErr.md](KnowledgeBase/Companies/ZeroErr.md) | 中国。ヒューマノイド関節アクチュエータ（eRob）。「インテル入ってる」狙い | 4 days ago |
 |  | CHANGRUI | [CHANGRUI.md](KnowledgeBase/Companies/CHANGRUI.md) | 中国（山東省）。精密鋳造20年。BMW・COGNEX・FIAT納品実績 | 4 days ago |
 |  | SEER Robotics | [SEER_Robotics.md](KnowledgeBase/Companies/SEER_Robotics.md) | DMP 名義で名刺交換済み。継続情報交換対象 | 4 days ago |
-| ○ | STAX | [STAX.md](KnowledgeBase/Companies/STAX.md) | 低価格電動車。将来の価格戦略オプション（橋本 GM 担当）| 5 days ago |
+| ★ | STAX | [STAX.md](KnowledgeBase/Companies/STAX.md) | 低価格電動車。初回接触はLogiMAT 2025。将来の価格戦略オプション（橋本 GM 担当）| Today |
 | ○ | DEXORY | [DEXORY.md](KnowledgeBase/Companies/DEXORY.md) | 英国。在庫スキャンロボット（Storage Health）| 5 days ago |
 | ○ | Southworth | [Southworth.md](KnowledgeBase/Companies/Southworth.md) | 米国。**スギヤスの直接競合**（シザーリフト・ティルター）| 5 days ago |
 | ○ | BIC | [BIC.md](KnowledgeBase/Companies/BIC.md) | **Bishamon Industries Corporation**。Ontario, CA・1986年創業・20名。Amazon・Walmart・Tesla の引き合いをリソース不足で断り続けている | 5 days ago |
@@ -95,14 +97,16 @@
 | ○ | infonerv | [infonerv.md](KnowledgeBase/Companies/infonerv.md) | 東大発。Claude 活用 AI 在庫管理。ON SEVEN DAYS 導入済み | 5 days ago |
 | ○ | ヤマハ発動機 | [ヤマハ発動機_PAXIS.md](KnowledgeBase/Companies/ヤマハ発動機_PAXIS.md) | 車いすインホイールモータの物流横展開 PAXIS。コア技術転用の好例 | 5 days ago |
 |  | MANUVIT | [MANUVIT.md](KnowledgeBase/Companies/MANUVIT.md) | 仏・1981年創業・Variable Geometry 特許。60kg SFL 型が輸入・OEM 候補筆頭 | 4 days ago |
-| ★ | IMS Manutention | [IMS_Manutention.md](KnowledgeBase/Companies/IMS_Manutention.md) | 仏・1973年創業。DTR 電動牽引トラクター専業。1〜10トン・PG Drive 採用 | Today |
+| ★ | IMS Manutention | [IMS_Manutention.md](KnowledgeBase/Companies/IMS_Manutention.md) | 仏・1973年創業。DTR 電動牽引トラクター専業。初回接触はLogiMAT 2025。1〜10トン・PG Drive 採用 | Today |
 | ★ | EP Equipment | [EP_Equipment.md](KnowledgeBase/Companies/EP_Equipment.md) | 中国・杭州。7工場・4000名・30万台/年。AMR 150台実稼働。上場企業（603194） | 2 days ago |
+| ★ | Stellana | [Stellana.md](KnowledgeBase/Companies/Stellana.md) | 欧州。ステアリングホイール・エコウレタンタイヤ。直接取引開始で合意（LogiMAT 2025） | Today |
+| ★ | Jungheinrich | [Jungheinrich.md](KnowledgeBase/Companies/Jungheinrich.md) | 独。欧州大手フォークリフトメーカー。超大型ブースで存在感（LogiMAT 2025） | Today |
 
 ### トレンド（Trends/）
 
 |  | ファイル | 内容 | 最終更新 |
 |:---:|---|---|:---:|
-| ★ | [2025年トレンド](KnowledgeBase/Trends/2025.md) | AMRの実工場稼働フェーズ移行・Ubuntu/ROS2主流化・中国電動フォークリフト量産体制確立 | 2 days ago |
+| ★ | [2025年トレンド](KnowledgeBase/Trends/2025.md) | LogiMAT 2025（ドライブユニットのオープンモジュール化）・AMRの実工場稼働フェーズ移行・Ubuntu/ROS2主流化・中国電動フォークリフト量産体制確立 | Today |
 | ○ | [2026年トレンド](KnowledgeBase/Trends/2026.md) | AMR当たり前化・IT侵食・Floor SLAM・電動アシスト急拡大・AI在庫管理実装・BIC北米訪問（ブランド×リソース乖離）他 | 5 days ago |
 
 ### アイデア（Ideas/）
@@ -120,6 +124,11 @@
 | ★ | [フリーロケーション AMR スタッキング](KnowledgeBase/Ideas/FreeLocation_AMR_Stacking.md) | EP社で150台実稼働確認。固定棚なし・鉄製パレット自律段積み。スギヤス製品連携の要件化 | 2 days ago |
 | ★ | [簡易ティーチング式電動車](KnowledgeBase/Ideas/EasyTeaching_ElectricVehicle.md) | EP社ショールームで発見。フルAMRより低コスト。山崎部長が「相当魅力的」と評価 | 2 days ago |
 |  | [BIC 協業による北米展開](KnowledgeBase/Ideas/BIC_NorthAmerica_Collaboration.md) | Bishamon ブランド × スギヤス技術力。Amazon 等大手案件への共同参画・複数代理店化スキーム | Yesterday |
+| ★ | [雷電タイプ 移動型整備リフト](KnowledgeBase/Ideas/RaidenLift_MobileServiceLift.md) | 小型フォークリフト対応。VIPER・Dendro Liftの屋外デモから着想（LogiMAT 2025） | Today |
+| ★ | [傾斜テーブルリフト](KnowledgeBase/Ideas/TiltTableLift.md) | エルゴノミクス対応。過去試作の安定性課題を欧州展示ベンチマークで再設計 | Today |
+| ★ | [高さ可変サスペンション式牽引台車](KnowledgeBase/Ideas/AdjustableSuspension_TowCart_BX.md) | BX輸送効率改善。極低床＋サスペンションで段差問題を解決 | Today |
+| ★ | [磁気テープ式AMRへの自社ドライブユニット搭載](KnowledgeBase/Ideas/DriveUnit_MagneticTapeAMR.md) | ちびちゃんテーブルリフト向けAMRのノウハウを横展開。病院・食品・中規模製造業向け | Today |
+| ★ | [AMRトップモジュールとしてのリフト機器展開](KnowledgeBase/Ideas/AMR_TopModule_LiftDeployment.md) | Nord Modulesコンセプト。AMR本体開発なしでAMRエコシステムに参加 | Today |
 
 <br>
 

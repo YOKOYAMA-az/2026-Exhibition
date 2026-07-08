@@ -334,3 +334,44 @@
 
 - 即席アタッチメントの正式設計（Bishamonトラック牽引用）
 - 牽引テスト結果を踏まえた対象製品・用途の拡大検討
+
+---
+
+## 2026-07-08 archive 実行（202503-LogiMat）
+
+### 実行ファイル
+[`Reports/202503-LogiMat/Report.md`](202503-LogiMat/Report.md)
+
+### 新規作成
+
+| ファイル | 内容 |
+|---|---|
+| [`KnowledgeBase/Knowledge/Manufacturing/DriveUnit_OpenModularization.md`](../KnowledgeBase/Knowledge/Manufacturing/DriveUnit_OpenModularization.md) | ドライブユニットのオープンモジュール化。最重要技術発見 |
+| [`KnowledgeBase/Knowledge/Logistics/TowCart_CurveTracking.md`](../KnowledgeBase/Knowledge/Logistics/TowCart_CurveTracking.md) | 牽引台車のカーブ追従機構（複数軸ピボット連結） |
+| [`KnowledgeBase/Companies/Stellana.md`](../KnowledgeBase/Companies/Stellana.md) | ステアリングホイール・タイヤメーカー。直接取引開始で合意 |
+| [`KnowledgeBase/Companies/Jungheinrich.md`](../KnowledgeBase/Companies/Jungheinrich.md) | 欧州大手フォークリフトメーカー。観察対象 |
+| [`KnowledgeBase/Ideas/RaidenLift_MobileServiceLift.md`](../KnowledgeBase/Ideas/RaidenLift_MobileServiceLift.md) | 小型フォークリフト対応移動型整備リフト（雷電タイプ） |
+| [`KnowledgeBase/Ideas/TiltTableLift.md`](../KnowledgeBase/Ideas/TiltTableLift.md) | 傾斜テーブルリフト |
+| [`KnowledgeBase/Ideas/AdjustableSuspension_TowCart_BX.md`](../KnowledgeBase/Ideas/AdjustableSuspension_TowCart_BX.md) | BX輸送想定 高さ可変サスペンション式牽引台車 |
+| [`KnowledgeBase/Ideas/DriveUnit_MagneticTapeAMR.md`](../KnowledgeBase/Ideas/DriveUnit_MagneticTapeAMR.md) | 磁気テープ式AMRへの自社ドライブユニット搭載展開 |
+| [`KnowledgeBase/Ideas/AMR_TopModule_LiftDeployment.md`](../KnowledgeBase/Ideas/AMR_TopModule_LiftDeployment.md) | AMRトップモジュールとしてのリフト機器展開 |
+
+### 追記更新
+
+| ファイル | 追記内容 |
+|---|---|
+| [`KnowledgeBase/Companies/IMS_Manutention.md`](../KnowledgeBase/Companies/IMS_Manutention.md) | LogiMAT 2025での初回接触の詳細・写真を追記 |
+| [`KnowledgeBase/Companies/STAX.md`](../KnowledgeBase/Companies/STAX.md) | LogiMAT 2025での初回接触（MODEXより前）を追記 |
+| [`KnowledgeBase/Trends/2025.md`](../KnowledgeBase/Trends/2025.md) | LogiMAT 2025（3月）のセクションを新設（5つの主要トレンド・技術変化・新商品示唆） |
+
+### 抽出した重要テーマ
+
+- ドライブユニットのオープンモジュール化が業界の分業構造を変える（当社の核心課題として報告内で明記）
+- IMS Manutention・STAXとの初回接触がLogiMAT 2025だったことが判明（後続レポートとの系譜がつながった）
+- Stellana社との直接取引開始合意（欧州サプライヤー調達ルート確立の第一号）
+
+### 次回深掘り候補
+
+- ドイツ製ドライブユニットのサンプル評価結果
+- Stellana社との契約条件確定状況
+- Nord Modulesの規格詳細
