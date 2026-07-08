@@ -431,3 +431,40 @@
 ### 次回深掘り候補
 
 - Alphaシリーズ「L66K」の技術仕様・製造原価の確認（協業検討材料として）
+
+---
+
+## 2026-07-09 archive 実行（202512-InterRobot）
+
+### 実行ファイル
+[`Reports/202512-InterRobot/Report.md`](202512-InterRobot/Report.md)
+
+### 新規作成
+
+| ファイル | 内容 |
+|---|---|
+| [`KnowledgeBase/Companies/IAI.md`](../KnowledgeBase/Companies/IAI.md) | ロボットコンベヤ新事業。シミュレーション先行公開→代理店見積→ユーザー設置の新導入モデル。防塵防滴ロボシリンダー |
+| [`KnowledgeBase/Companies/GMO_AI_Robotics.md`](../KnowledgeBase/Companies/GMO_AI_Robotics.md) | 中国製ヒューマノイド・AMRの国内販売代理店。会場最大の集客ブース。Gemini Robotics統合訴求 |
+| [`KnowledgeBase/Companies/DMP.md`](../KnowledgeBase/Companies/DMP.md) | パチンコ関連半導体商社。搬送装置を成長の柱に検討中。SEER Roboticsとの接点元 |
+
+### 追記更新
+
+| ファイル | 追記内容 |
+|---|---|
+| [`KnowledgeBase/Knowledge/Humanoid/Humanoid_Logistics.md`](../KnowledgeBase/Knowledge/Humanoid/Humanoid_Logistics.md) | iREX2025：GMO AI&ロボティクス商事の中国製ヒューマノイド・Gemini Robotics・Unitree Go2-Wを追記。中国との技術差「10年以上」の所感 |
+| [`KnowledgeBase/Knowledge/AMR/Commoditization.md`](../KnowledgeBase/Knowledge/AMR/Commoditization.md) | iREX2025：SEER製WLR-719コントローラー（「インテル入ってる？」の構図）・KAIZEN Mobile Robots/Doog・LINX iRAYPLEを追記 |
+| [`KnowledgeBase/Companies/SEER_Robotics.md`](../KnowledgeBase/Companies/SEER_Robotics.md) | iREX2025：WLR-719コントローラー詳細、廣田GMのショールーム見学確約（2026年3月）、DMP接点の詳細を追記 |
+| [`KnowledgeBase/Trends/2025.md`](../KnowledgeBase/Trends/2025.md) | iREX2025（12月・東京）のセクションを新設 |
+
+### 抽出した重要テーマ
+
+- 中国製ヒューマノイドの完成度が日本メーカーに対して「10年以上」先行しているという明確な所感。正面対抗は現実的でない
+- AMRコントローラー市場でSEERが「インテル入ってる？」的な標準ポジションを確立。廣田GMのショールーム見学が2026年3月に確定
+- IAIの「シミュレーション先行公開→代理店見積→ユーザー設置」という新しい機器導入モデル
+- GMOグループの「ロボティクス商事」参入という、中国製ロボティクス製品の国内代理店ビジネスの実例
+
+### 次回深掘り候補
+
+- 廣田GMによるSEERショールーム見学（2026年3月）の結果確認
+- DMPとの取引・協業の具体的展開
+- IAIロボットコンベヤの導入事例・価格帯の確認
