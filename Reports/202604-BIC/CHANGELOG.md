@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## 2026-07-08 差分Publish（写真4枚追加）
+
+### Added
+- Images/IMG_20260415_113623.jpg（Bishamonブース：ハンドパレットジャッキ）
+- Images/IMG_20260415_113635.jpg（Bishamonブース：Alphaシリーズ電動テーブルリフト）
+- Images/IMG_20260415_113642.jpg（Bishamonブース全景）
+- Images/IMG_20260415_113706.jpg（Bishamonブース：旋回式リフトテーブル）
+- Report.md 5-0節にBishamonブース写真4枚を挿入
+
+### Checked
+- Markdown 構文 ✓
+- 画像リンク 追記分4/4 ✓
+- 画像サイズ（800×600・追加リサイズ不要） ✓
+- GitHub 表示互換 ✓
+
+### Notes
+- 差分ビルド：既存本文・写真の再点検は行っていない
+
+---
+
 ## 2026-07-06 Publish Check
 
 ### Added

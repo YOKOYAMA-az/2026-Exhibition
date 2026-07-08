@@ -64,6 +64,20 @@ BICとの最初の接点は、アトランタで開催されたMODEX 2026だ。
 <p style="color:#888888; font-size:1.05em;">MODEX 2026 会場（ジョージア・ワールドコングレスセンター、アトランタ）。物流・マテリアルハンドリングの北米最大級展示会。Bishamon ブースも出展（2026年4月）</p>
 
 <br>
+<p>
+<img src="Images/IMG_20260415_113623.jpg" width="390">
+<img src="Images/IMG_20260415_113635.jpg" width="390">
+</p>
+<p style="color:#888888; font-size:1.05em;">（左）Bishamonブースのハンドパレットジャッキ。ピストン式油圧機構を採用。（右）Alphaシリーズ電動テーブルリフト「L66K」。6,600lb（約3トン）対応でモジュール設計を訴求（MODEX 2026 / 2026年4月15日）</p>
+
+<br>
+<p>
+<img src="Images/IMG_20260415_113642.jpg" width="390">
+<img src="Images/IMG_20260415_113706.jpg" width="390">
+</p>
+<p style="color:#888888; font-size:1.05em;">（左）Bishamonブース全景。Duravant社の大型ブースと同エリアに出展し、来場者の関心を集めていた。（右）旋回式（ターンテーブル型）リフトテーブル。ヒンジ式メンテナンスバーで保守性の高さを訴求（MODEX 2026 / 2026年4月15日）</p>
+
+<br>
 <img src="Images/IMG_5806.JPG" width="500">
 <p style="color:#888888; font-size:1.05em;">アトランタ、Mary Mac's Tea Room にて BIC チームとの夕食。創業1945年の南部料理の名店。ロースト鶏・マッシュポテト・グリッツが並ぶ（MODEX 2026 / 2026年4月14日）</p>
 <p>

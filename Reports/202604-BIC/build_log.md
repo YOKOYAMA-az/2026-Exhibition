@@ -1,6 +1,42 @@
 # build_log — 202604-BIC
 
-## 2026-07-06 ビルド実行
+## 2026-07-08 ビルド実行（差分：写真4枚追加）
+
+### 実行工程
+
+| 工程 | 結果 | 備考 |
+|---|---|---|
+| make-report | done | 差分ビルドモード。新規写真4枚（Bishamonブース）を検出・確認 |
+| review-report | done | 向き補正不要（4枚とも横位置・orientation nil）。edit_log.md 追記 |
+| publish-report | Ready for Publish（99/100） | 追記分4/4リンク確認。CHANGELOG・release_notes 追記 |
+| archive-report | done | BIC.md にBishamonブース製品情報を追記。archive_log 追記 |
+
+### 生成・更新ファイル
+
+#### make-report
+- `Reports/202604-BIC/Report.md`（5-0節に写真4枚挿入）
+
+#### review-report
+- `Reports/202604-BIC/edit_log.md`（差分エントリ追記）
+
+#### publish-report
+- `Reports/202604-BIC/CHANGELOG.md`（差分エントリ追記）
+- `Reports/202604-BIC/release_notes.md`（v1.1-publish-20260708-1640）
+- `Reports/202604-BIC/PUBLISH_SUMMARY.md`（差分内容に更新）
+
+#### archive-report
+- `KnowledgeBase/Companies/BIC.md`（MODEXブース展示製品ラインアップを追記）
+- `Reports/archive_log.md`（2026-07-08差分エントリ追加）
+
+### 特記事項
+
+- 新規写真4枚（IMG_20260415_113623/113635/113642/113706）はいずれもBishamon自社ブースの展示製品。撮影時刻が5-0節（MODEX 2026、4/14〜16）の会期と一致し、既存の会場写真1枚だけでは不明瞭だった「Bishamonが何を展示していたか」を補完する内容と判断し、5-0節の会場写真直後に挿入
+- 差分ビルドのため、既存本文・既存写真96枚は再点検していない
+- 品質スコア：99/100（初回98/100から改善。ブース写真追加で「画像」項目+1）
+
+### 次回アクション
+
+- git commit（ユーザーが手動実行）
 
 ### 実行工程
 

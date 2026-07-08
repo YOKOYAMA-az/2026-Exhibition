@@ -20,7 +20,7 @@
 |  | 2025年12月3日 | [🇯🇵 日本／iREX2025 国際ロボット展（東京ビッグサイト）](Reports/202512-InterRobot/Report.md) | 山崎 | 27枚・3.8MB | — |
 |  | 2026年2月12日 | [🇯🇵 日本／国際オートアフターマーケットEXPO 2026（東京ビッグサイト）](Reports/202602-AfterMark/Report.md) | 山崎 | 22枚・2.9MB | — |
 | ○ | 2026年4月13日 | [🇺🇸 米国／MODEX 2026（ジョージア・ワールド・コングレス・センター）](Reports/202604-MODEX/Report.md) | 山崎・橋本GM | 111枚・15.0MB | [7/2](Reports/archive_log.md) |
-| ★ | 2026年4月17日 | [🇺🇸 米国／BIC（Bishamon Industries Corporation）訪問・エンジェルス観戦（カリフォルニア州）](Reports/202604-BIC/Report.md) | 山崎・橋本GM | 24枚・3.3MB | [7/6](Reports/archive_log.md) |
+| ★ | 2026年4月17日 | [🇺🇸 米国／BIC（Bishamon Industries Corporation）訪問・エンジェルス観戦（カリフォルニア州）](Reports/202604-BIC/Report.md) | 山崎・橋本GM | 28枚・4.0MB | [7/8](Reports/archive_log.md) |
 | ○ | 2026年4月20日 | [🇩🇪 ドイツ／ハノーバーメッセ 2026（ハノーバー見本市会場）](Reports/202604-HANNOVER/Report.md) | 山崎・橋本GM | 34枚・4.5MB | [7/2](Reports/archive_log.md) |
 | ○ | 2026年4月22日 | [🇫🇷 フランス／MANUVIT 工場視察・商談（La Ferté Macé）](Reports/202604-MANUVIT/Report.md) | 山崎・橋本GM | 28枚・3.3MB | [7/3](Reports/archive_log.md) |
 | ★ | 2026年4月24日 | [🇫🇷 フランス／IMS Manutention 工場視察・商談（Bonneval）](Reports/202604-IMS/Report.md) | 山崎・橋本GM | 21枚・2.7MB | [7/3・7/7](Reports/archive_log.md) |
@@ -90,7 +90,7 @@
 | ★ | STAX | [STAX.md](KnowledgeBase/Companies/STAX.md) | 低価格電動車。初回接触はLogiMAT 2025。将来の価格戦略オプション（橋本 GM 担当）| Today |
 | ○ | DEXORY | [DEXORY.md](KnowledgeBase/Companies/DEXORY.md) | 英国。在庫スキャンロボット（Storage Health）| 5 days ago |
 | ○ | Southworth | [Southworth.md](KnowledgeBase/Companies/Southworth.md) | 米国。**スギヤスの直接競合**（シザーリフト・ティルター）| 5 days ago |
-| ○ | BIC | [BIC.md](KnowledgeBase/Companies/BIC.md) | **Bishamon Industries Corporation**。Ontario, CA・1986年創業・20名。Amazon・Walmart・Tesla の引き合いをリソース不足で断り続けている | 5 days ago |
+| ★ | BIC | [BIC.md](KnowledgeBase/Companies/BIC.md) | **Bishamon Industries Corporation**。Ontario, CA・1986年創業・20名。Amazon・Walmart・Tesla の引き合いをリソース不足で断り続けている | Today |
 | ○ | DEMATIC | [DEMATIC.md](KnowledgeBase/Companies/DEMATIC.md) | ドイツ系物流SI大手。DHL・Amazon・Walmart への大規模導入実績 | 5 days ago |
 | ★ | 四恩システム | [四恩システム.md](KnowledgeBase/Companies/四恩システム.md) | 久留米・40名。Floor SLAM 搭載 AGV。スバルに30台導入。技術提携候補 | 2 days ago |
 | ○ | ナブテスコ | [ナブテスコ.md](KnowledgeBase/Companies/ナブテスコ.md) | 後付け電動アシストユニット。自動車業界で急成長。IMS との差別化軸 | 5 days ago |
