@@ -468,3 +468,85 @@
 - 廣田GMによるSEERショールーム見学（2026年3月）の結果確認
 - DMPとの取引・協業の具体的展開
 - IAIロボットコンベヤの導入事例・価格帯の確認
+
+---
+
+## 2026-07-09 archive 実行（202604-MODEX 差分・知見追加なし）
+
+### 実行ファイル
+[`Reports/202604-MODEX/Report.md`](202604-MODEX/Report.md)
+
+### 内容
+
+差分ビルド（写真2枚の回転補正・既存写真ブロックの再配置・キャプション誤記修正）であり、新規の企業・技術・アイデアは含まれていなかったため、Knowledge / Companies / Trends / Ideas への追記は行っていない。
+
+[`KnowledgeBase/Companies/STAX.md`](../KnowledgeBase/Companies/STAX.md) は既存記載どおりで内容変更なし（Report.md内の写真位置移動のみで、参照先の事実関係に変更はない）。
+
+### 更新したファイル
+
+- なし（README.md の知識ベース4テーブルの★/◎/△バッジと相対時刻は全行洗い直し済み。詳細は README.md 参照）
+
+### 次回深掘り候補
+
+- 変更なし（202604-MODEX の未解決事項は PUBLISH_SUMMARY.md 参照）
+
+---
+
+## 2026-07-09 archive 追補（202604-MODEX：TianyuLux 新規追加・ユーザー指示）
+
+### 実行ファイル
+[`Reports/202604-MODEX/Report.md`](202604-MODEX/Report.md)
+
+### 内容
+
+ユーザーより「TianyuLuxという会社が VID_20260415_101159_thumb.jpg に映っており、今後重要な会社になりそうなのでナレッジ化してほしい」との指示。該当写真（OtherPictures内の動画サムネイル）を目視確認し、Web検索で企業情報を補足したうえで新規Companiesファイルを作成した。
+
+### 新規作成
+
+| ファイル | 内容 |
+|---|---|
+| [`KnowledgeBase/Companies/TianyuLux.md`](../KnowledgeBase/Companies/TianyuLux.md) | 中国・河北省の電動パレットトラックメーカー。オフロード対応・防水（冷凍倉庫グレード）耐久性が特徴。MODEX動画サムネイル1枚＋Web検索（tianyulift.com等）から作成 |
+
+### Report.md への追記
+
+- OtherPictures章のVID_20260415_101159/105648ペアに、TianyuLux・DEXORYを識別するキャプションを追加（従来は無地キャプションだった）
+
+### 抽出した重要テーマ
+
+- 中国製オフロード電動パレットトラックにおける「防水・冷凍倉庫対応」という差別化軸。STAX（低価格路線）とは異なる差別化戦略の事例
+
+### 次回深掘り候補
+
+- 山崎部長・橋本GMへMODEXでのTianyuLuxブース接触有無を確認
+- 公式サイトでの価格帯・OEM条件の追加調査
+
+---
+
+## 2026-07-09 archive 追補②（202604-MODEX：LiftPoint・Ballymore・HELI 新規追加・ユーザー指示）
+
+### 実行ファイル
+[`Reports/202604-MODEX/Report.md`](202604-MODEX/Report.md)
+
+### 内容
+
+ユーザーより「LIFTPOINT、Ballymore、HELIの3社もナレッジ化してほしい」との指示。写真全面再構成（同日実施）で本文採用された各社の写真・キャプションを再確認し、Web検索で企業背景を補足したうえで新規Companiesファイルを3件作成した。
+
+### 新規作成
+
+| ファイル | 内容 |
+|---|---|
+| [`KnowledgeBase/Companies/LiftPoint.md`](../KnowledgeBase/Companies/LiftPoint.md) | 米国・Mohawk Lifts傘下。フォークリフトをコンテナ床面高さへ持ち上げるサービスリフト |
+| [`KnowledgeBase/Companies/Ballymore.md`](../KnowledgeBase/Companies/Ballymore.md) | 米国。シザーリフト・クライミングプラットフォームの月額課金（サブスクリプション）販売モデル |
+| [`KnowledgeBase/Companies/HELI.md`](../KnowledgeBase/Companies/HELI.md) | 中国・安徽省。フォークリフト販売で中国最大・世界7位の大手上場企業（600761）|
+
+### 抽出した重要テーマ
+
+- LiftPoint・Superior Lifts（既存 Ideas/Pallet系）に共通する「荷役アクセスの最後のギャップを解く」という着眼点が、今回のMODEX視察で繰り返し観察されたテーマとして浮かび上がった
+- Ballymore の月額課金（サブスクリプション）販売モデルは、スギヤス自身の販売チャネル検討に転用できる可能性がある一次情報
+- HELI は調達・提携候補というより、フォークリフト市場価格の基準点として動向を継続監視すべき最大手プレイヤー
+
+### 次回深掘り候補
+
+- LiftPoint：Mohawk Lifts本体との技術共通性、コンテナ高さ合わせ用途の価格帯
+- Ballymore：サブスクリプション契約条件の詳細
+- HELI：特に追加アクションなし（大手動向として定期ウォッチ）

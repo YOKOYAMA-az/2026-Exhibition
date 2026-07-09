@@ -1,7 +1,7 @@
 # Release Notes — 202604-MODEX
 
 ## Version
-v1.1-publish-20260703
+v1.2-publish-20260709
 
 ## Report
 202604-MODEX/Report.md
@@ -10,10 +10,11 @@ v1.1-publish-20260703
 ✅ Ready for Publish
 
 ## Summary
-- Bishamon 写真2枚を正しい時系列位置（4/15）へ移動
-- フォーマット修正（`<br>` 補完・空行整理・括弧修正）
-- 画像リンク全111件確認、切れなし
-- OtherPictures 62件確認、`unUsed/` 移動対象なし
+- 横倒しのままだった写真2枚（IMG_5768 / IMG_5787）を回転補正
+- STAXX写真ブロックをMOODE ROBOTセクション末尾からSTAX社セクション冒頭へ移動し、意味的なつながりを改善
+- 移動に伴う `<br>` 重複・連続空行を整理
+- キャプション誤記1件を修正（写真内ロゴの目視確認による訂正）
+- README.md バッジを最新状態へ更新（本レポート：△→★、他3件を洗い直し）
 
 ## Quality Score
 
@@ -22,7 +23,7 @@ v1.1-publish-20260703
 | Markdown | 100 |
 | 画像 | 100 |
 | リンク | 100 |
-| 文章 | 97 |
+| 文章 | 98 |
 | GitHub互換 | 100 |
 | **総合** | **99** |
 

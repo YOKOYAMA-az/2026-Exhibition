@@ -1,5 +1,92 @@
 # build_log.md — 202604-MODEX
 
+## 2026-07-09 写真全面再構成（ユーザー直接指示・build-report外）
+
+### 実行条件
+
+build-report パイプラインではなく、ユーザーからの直接指示による作業：
+「写真を追加した。OtherPictures の写真も全て本文採用し直し、タイムスタンプ・内容を精査してまとめて配置し直す。画角が近い／ピンボケのみ unUsed へ」
+
+### 内容
+
+| 項目 | 結果 |
+|---|---|
+| 新規写真レビュー | 31枚中29枚採用（5サブエージェント並列で目視カタログ化）|
+| OtherPictures再審査 | 62枚中55枚を本文へ再統合 |
+| unUsed送り | 9枚（NEAR-DUP 7枚・REJECT-BLUR 2枚）|
+| Report.md再構成 | done（追記ブロック統合、新小見出し1件追加、脱落分の検証・復元含む）|
+| README.md更新 | done（写真枚数195枚・26.6MBへ更新）|
+
+### 生成・更新ファイル
+
+- `202604-MODEX/Report.md`（111枚→195枚、追記ブロック統合）
+- `202604-MODEX/Images/`（OtherPictures削除、unUsed新設9枚、新規29枚を800px幅にリサイズ・改名）
+- `202604-MODEX/edit_log.md`・`CHANGELOG.md`・`PUBLISH_SUMMARY.md`
+- `README.md`（MODEX行の写真枚数・容量更新）
+
+### 特記事項
+
+- 初回ドラフトで既存採用写真6枚の脱落・新規3枚の配置漏れを検出し、バックアップとの差分チェックで復元・修正済み
+- 新規写真のEXIF時刻異常（詳細はedit_log.md参照）
+
+### 次に必要な工程
+
+なし（git commit のみ。次回 build-report 実行時は今回のPUBLISH_SUMMARY.md日時が基準になる）
+
+---
+
+## 2026-07-09 差分ビルド（変更あり）
+
+### 実行条件
+
+完了済み判定：
+- 第1段階：前回ビルド（2026-07-03）は archive-report まで完走済み → 第2段階へ
+- 第2段階：PUBLISH_SUMMARY.md（2026-07-03）より新しいファイルあり → 変更あり（差分ビルドモード）
+  - `Report.md`（IMG_5843ブロックの再配置、未コミット編集）
+  - `Images/IMG_5768.JPG`・`Images/IMG_5787.JPG`（ユーザー指示による90度回転補正）
+
+実行モード：差分ビルド（新規・変更分のみ処理、確定済み写真の再審査なし）
+
+### 工程
+
+| 工程 | 結果 | 備考 |
+|---|---|---|
+| make-report（差分） | done | 動画残存・未分類ファイルなし。写真2枚を目視確認（回転済み・向き正常、width="390"維持）|
+| review-report | done | STAX社セクションへのIMG_5843移動を確認・整形。`<br>`重複/連続空行を整理。キャプション誤記1件修正 |
+| publish-report | Ready for Publish（99/100）| README.mdバッジ全行洗い直し（出張報告書4件更新：LogiMat・GenerativeAI・BIC・HANNOVER、MODEX △→★）|
+| archive-report | done（新規知見なし） | 差分内容は既存Companies/STAX.mdの範囲内のため追記なし。知識ベース4テーブルのバッジ・相対時刻を全行更新 |
+
+### 生成・更新ファイル
+
+- `202604-MODEX/Report.md`（STAXXブロック移動の整形、キャプション修正）
+- `202604-MODEX/Images/IMG_5768.JPG`・`IMG_5787.JPG`（回転補正）
+- `202604-MODEX/edit_log.md`（review-report記録追加）
+- `202604-MODEX/CHANGELOG.md`（2026-07-09エントリ追加）
+- `202604-MODEX/release_notes.md`（v1.2-publish-20260709）
+- `202604-MODEX/PUBLISH_SUMMARY.md`（差分ビルド実行日時に更新）
+- `README.md`（出張報告書バッジ5件更新、知識ベース4テーブル全行のバッジ・相対時刻更新）
+- `Reports/archive_log.md`（2026-07-09エントリ追加・知見追加なしを明記）
+
+### 特記事項
+
+- なし
+
+### 所要時間
+
+| 工程 | 所要時間 |
+|---|---:|
+| make-report | 3分02秒 |
+| review-report | 1分37秒 |
+| publish-report | 3分09秒 |
+| archive-report | 4分42秒 |
+| **合計** | **12分30秒** |
+
+### 次に必要な工程
+
+なし（git commit のみ）
+
+---
+
 ## 2026-07-03 フルビルド（変更あり）
 
 ### 実行条件
