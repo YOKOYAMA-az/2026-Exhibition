@@ -365,8 +365,10 @@ today=$(date +%s)
 for dir in Reports/*/; do
   f="${dir}PUBLISH_SUMMARY.md"
   [ -f "$f" ] || continue
-  d=$(grep -A1 "## 実行日時" "$f" 2>/dev/null | tail -1 | grep -oE "[0-9]{4}-[0-9]{2}-[0-9]{2}")
-  [ -z "$d" ] && d=$(grep -oE "\*\*Date:\*\*[[:space:]]*[0-9-]+" "$f" 2>/dev/null | grep -oE "[0-9]{4}-[0-9]{2}-[0-9]{2}")
+  # head -1 必須：差分ビルドでは「2026-07-08（差分ビルド。初回：2026-07-06）」のように
+  # 1行に日付が2つ入ることがあり、最新（先頭）のみを採用する
+  d=$(grep -A1 "## 実行日時" "$f" 2>/dev/null | tail -1 | grep -oE "[0-9]{4}-[0-9]{2}-[0-9]{2}" | head -1)
+  [ -z "$d" ] && d=$(grep -oE "\*\*Date:\*\*[[:space:]]*[0-9-]+" "$f" 2>/dev/null | grep -oE "[0-9]{4}-[0-9]{2}-[0-9]{2}" | head -1)
   [ -z "$d" ] && continue
   t=$(date -j -f "%Y-%m-%d" "$d" +%s 2>/dev/null)
   [ -z "$t" ] && continue
@@ -652,31 +654,32 @@ GitHub への push はユーザーが手動で行う。
 ```bash
 git commit -m "docs(対象フォルダ名): 変更内容の要約"
 
-例
-
+# 例
 git commit -m "docs(COMPUTEX2026): update report and image layout"
-
 git commit -m "docs(LogiMAT2025): polish report for publication"
-
 git commit -m "docs(ElectricChina2025): add review notes and archive knowledge"
+```
 
-変更内容別の動詞
-新規作成：add
-追記：update
-編集・改善：polish
-公開前調整：prepare
-画像整理：organize images
-ナレッジ化：archive knowledge
-リンク修正：fix links
+変更内容別の動詞。
 
-最終出力
+- 新規作成：add
+- 追記：update
+- 編集・改善：polish
+- 公開前調整：prepare
+- 画像整理：organize images
+- ナレッジ化：archive knowledge
+- リンク修正：fix links
+
+### 最終出力
+
 作業完了後、以下を表示する。
 
-
+```bash
 git status
 git add .
 git commit -m "docs(対象フォルダ名): 変更内容の要約"
 git push
+```
 
 ただし、実際の Git 操作は実行しない。
 ユーザーが内容を確認してから手動で実行する。

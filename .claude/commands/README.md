@@ -1,19 +1,23 @@
-# Future Product Lab Report System v1.0
+# Future Product Lab Report System v1.1
 
 展示会・海外視察・技術調査レポートを、単なる報告書ではなく、会社の知識資産へ育てるための Claude Code 用スキルセットです。
 
 ## 構成
 
 ```text
-Skills/
+.claude/commands/
+  make-report.md
   review-report.md
   publish-report.md
   archive-report.md
   build-report.md
 
-Config/
-  FPL_STYLE.md
-  report-config.yml
+  Config/
+    FPL_STYLE.md
+    report-config.yml
+
+  Examples/
+    SamplePrompt.md
 ```
 
 ## 推奨ワークフロー
@@ -28,6 +32,8 @@ publish-report.md
 archive-report.md
 ```
 
+一括実行する場合は `/build-report <フォルダー名>` を使う（上記4工程を順に統括実行する）。
+
 ## 各スキルの役割
 
 ### make-report.md
@@ -40,36 +46,29 @@ archive-report.md
 
 ### publish-report.md
 
-出版社。GitHub公開前の品質保証を行う。
+出版社。GitHub公開前の品質保証を行う。README.mdの更新バッジ（★/◎/△）もここで洗い直す。
 
 ### archive-report.md
 
-知識アーキビスト。Report.mdから技術テーマ・企業・トレンド・アイデアを抽出する。
+知識アーキビスト。Report.mdから技術テーマ・企業・トレンド・アイデアを抽出し、`KnowledgeBase/` へ蓄積する。
 
 ### build-report.md
 
-統括役。各工程を順番に実行する。
+統括役。`Reports/<フォルダー名>/` を対象に、各工程を順番に実行する。差分ビルド（前回ビルド以降の変更分のみ処理）に対応。
 
-## 配置例
+## 配置
 
-Claude Code のプロジェクトに以下のように配置します。
+このリポジトリでは `.claude/commands/` 直下にフラットに配置しており、各ファイルがそのままスラッシュコマンド（`/make-report` 等）になります。
 
-```text
-.claude/
-  skills/
-    review-report/
-      review-report.md
-    publish-report/
-      publish-report.md
-    archive-report/
-      archive-report.md
-    build-report/
-      build-report.md
-```
-
-`Config/` はリポジトリ直下、または `.claude/` 配下に置いてください。
+`Config/`・`Examples/` は補助資料であり、スキル本文から参照されます。
 
 ## 使い方
+
+### 一括実行（推奨）
+
+```text
+/build-report 202604-HANNOVER
+```
 
 ### 公開前チェックだけ行う場合
 
@@ -91,5 +90,4 @@ build-report.md の考え方に従って、Report.md を公開品質に整えた
 
 ## Version
 
-v1.0
-
+v1.1
