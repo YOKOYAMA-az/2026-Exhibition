@@ -9,7 +9,7 @@
 | 展示会 | MODEX 2026（アトランタ）|
 | キーワード | オフロード対応電動パレットトラック・防水（IP）耐久性 |
 
-<img src="../../Reports/202604-MODEX/Images/OtherPictures/VID_20260415_101159_thumb.jpg" width="800">
+<img src="../../Reports/202604-MODEX/Images/VID_20260415_101159_thumb.jpg" width="800">
 <p style="color:#888888; font-size:1.05em;">TianyuLux ブースにて。「OFF-ROAD」ブランドの電動パレットトラック筐体を、雨天・水没を模した水槽に浸けて防水性能をデモしていた（MODEX 2026 / 動画サムネイル）</p>
 
 ## 観察内容
@@ -37,7 +37,7 @@
 ## アクション
 
 - 山崎部長・橋本GMへ、MODEXでのTianyuLuxブース接触有無を確認
-- 公式サイト（tianyulift.com / tianyulux.com）で価格帯・スペック・代理店条件を追加調査
+- 公式サイト（tianyulift.com / tianyulux.com）で価格帯・スペック・代理店条件を追加調査　　　
 - 「今後重要な会社になりそう」との所感を踏まえ、次回展示会での再接触・情報更新を優先候補とする
 
 ## 関連レポート
