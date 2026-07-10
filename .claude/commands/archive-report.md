@@ -411,37 +411,61 @@ fi
 
 ### テーブルフォーマット
 
+**列順のルール：`最終更新`（相対時間テキスト）を一番左、バッジ（★◎△）をその次に置く。** バッジだけでは何日前か分からないため、必ずテキストの相対時間を左端に添える。この列順は README.md の全テーブル（出張報告書・講演会レポート・Strategy・知識ベース4種）で統一する。
+
 **技術テーマ（KnowledgeBase/Knowledge/）**
 
 ```markdown
-|  | カテゴリ | ファイル | 概要 | 最終更新 |
-|:---:|---|---|---|:---:|
-| ★ | AMR | [ファイルタイトル](KnowledgeBase/Knowledge/AMR/Commoditization.md) | 概要（1行）| Today |
+| 最終更新 |  | カテゴリ | ファイル | 概要 |
+|:---:|:---:|---|---|---|
+| Today | ★ | AMR | [ファイルタイトル](KnowledgeBase/Knowledge/AMR/Commoditization.md) | 概要（1行）|
 ```
 
 **企業情報（KnowledgeBase/Companies/）**
 
 ```markdown
-|  | 企業名 | ファイル | 関係性 | 最終更新 |
-|:---:|---|---|---|:---:|
-|  | 企業名 | [企業名.md](KnowledgeBase/Companies/企業名.md) | 担当・関係性 | 3 days ago |
+| 最終更新 |  | 企業名 | ファイル | 関係性 |
+|:---:|:---:|---|---|---|
+| 3 days ago |  | 企業名 | [企業名.md](KnowledgeBase/Companies/企業名.md) | 担当・関係性 |
 ```
 
 **トレンド（KnowledgeBase/Trends/）**
 
 ```markdown
-|  | ファイル | 内容 | 最終更新 |
-|:---:|---|---|:---:|
-| △ | [タイトル](KnowledgeBase/Trends/ファイル.md) | 概要（1行）| 1 week ago |
+| 最終更新 |  | ファイル | 内容 |
+|:---:|:---:|---|---|
+| 1 week ago | △ | [タイトル](KnowledgeBase/Trends/ファイル.md) | 概要（1行）|
 ```
 
 **アイデア（KnowledgeBase/Ideas/）**
 
 ```markdown
-|  | ファイル | アイデア概要 | 最終更新 |
-|:---:|---|---|:---:|
-|  | [タイトル](KnowledgeBase/Ideas/ファイル.md) | 概要（1行）| 2 months ago |
+| 最終更新 |  | ファイル | アイデア概要 |
+|:---:|:---:|---|---|
+| 2 months ago |  | [タイトル](KnowledgeBase/Ideas/ファイル.md) | 概要（1行）|
 ```
+
+**Strategy（strategy/ ・ README.md「## Strategy」節）**
+
+Knowledge Base 4種と同じ `find_real_last_edit()` / `effective_time()` / `rel_time()` を使う（PUBLISH_SUMMARY.md を持たないため、git履歴基準）。
+
+```markdown
+| 最終更新 |  | 日付 | タイトル | 作成者 |
+|:---:|:---:|---|---|:---:|
+| 1 week ago |  | 2026年6月30日 | [タイトル](strategy/ファイル.md) | 山崎 |
+```
+
+**講演会レポート（README.md「## 講演会レポート」節）**
+
+Strategy と同じくgit履歴基準（`Reports/YYYYMM-講演者名/*.md` を対象に `find_real_last_edit()` を適用）。publish-report.md のパイプラインを通らないため PUBLISH_SUMMARY.md は存在しない。
+
+```markdown
+| 最終更新 |  | 日付 | 講演・イベント | 講師 | 聴講者 |
+|:---:|:---:|---|---|---|:---:|
+| Today | ★ | 2026年5月26日 | [タイトル](Reports/講演フォルダ/ファイル.md) | 講師名 | 山崎 |
+```
+
+4テーブル（Knowledge/Companies/Trends/Ideas）に加え、Strategy・講演会レポートの2テーブルも archive-report 実行のたびに全行洗い直す（stale化防止）。
 
 ## README.md 出張報告書テーブルの「ナレッジ化」列更新
 
@@ -455,10 +479,12 @@ fi
 
 ### テーブルフォーマット例
 
+`最終更新`・バッジ列（一番左2列）は publish-report.md 9.4節が管理する（PUBLISH_SUMMARY.md基準）。archive-report.md は「ナレッジ化」列のみを更新し、他の列には触れない。
+
 ```markdown
-| 日付 | 出張先 | 参加者 | 写真枚数・容量 | ナレッジ化 |
-|---|---|---|:---:|:---:|
-| 2026年4月13日 | [🇺🇸 米国／MODEX 2026...](Reports/202604-MODEX/Report.md) | 山崎・橋本GM | 111枚・15.0MB | [7/2](Reports/archive_log.md) |
+| 最終更新 |  | 日付 | 出張先 | 参加者 | 写真枚数・容量 | ナレッジ化 |
+|:---:|:---:|---|---|---|:---:|:---:|
+| Yesterday | ◎ | 2026年4月13日 | [🇺🇸 米国／MODEX 2026...](Reports/202604-MODEX/Report.md) | 山崎・橋本GM | 111枚・15.0MB | [7/2](Reports/archive_log.md) |
 ```
 
 ## 最終出力
