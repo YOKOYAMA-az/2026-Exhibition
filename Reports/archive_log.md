@@ -594,3 +594,44 @@
 - ジンバル型アクチュエータ機構（IMG_5228）・メカナム風駆動輪ユニット（IMG_5248）のブース名特定（未確認のまま）
 
 ---
+
+## 2026-07-10 Electric China 2025（中国・上海・天津）初回build-report
+
+### 実行ファイル
+[`Reports/202504-ElectricChina/Report.md`](202504-ElectricChina/Report.md)
+
+### 背景
+
+build-reportパイプライン導入以前に作成された既存レポート。ユーザーがNippou.txtに奥村・前川の日報を追記したうえで`/build-report 202504-ElectricChina`を実行し、初回ビルドとしてフルパイプラインを通した。
+
+### 新規作成
+
+| ファイル | 内容 |
+|---|---|
+| [`KnowledgeBase/Companies/NIDEC_DriveTechnology.md`](../KnowledgeBase/Companies/NIDEC_DriveTechnology.md) | 中国・浙江省。遊星歯車減速機。Amazon採用実績（ドライブホイール停止精度）。AGV/AMR駆動ユニットの調達候補 |
+| [`KnowledgeBase/Companies/HZO.md`](../KnowledgeBase/Companies/HZO.md) | 基板・デバイス向け防水ナノコーティング技術。IoTセンサー防水対策の応用候補 |
+| [`KnowledgeBase/Ideas/DriveUnit_InHouseProduction.md`](../KnowledgeBase/Ideas/DriveUnit_InHouseProduction.md) | モーター・ドライブユニット内製化検討。月100〜500台が量産閾値の目安 |
+
+### 更新
+
+| ファイル | 追記内容 |
+|---|---|
+| [`KnowledgeBase/Trends/2025.md`](../KnowledgeBase/Trends/2025.md) | 「Electric China 2025」セクションを新設（LogiMATと生成AI Worldの間、時系列順） |
+
+### 抽出した重要テーマ
+
+- **NIDECドライブ・テクノロジーのAmazon実績**：ドライブホイールの停止精度が採用理由という具体的事実は、AGV/AMR駆動ユニットの評価基準として直接活用できる
+- **「モーターの一段下」が中国サプライチェーンの強み**という理解により、モーター・コントローラー内製化のリアリティが増した（月100〜500台という具体的な量産閾値も判明）
+- HZOの防水ナノコーティングは、当社IoTセンサー機器の防水対策として応用余地あり
+
+### 特記事項
+
+- 複数人（山崎・奥村・前川）の日報を統合した初のレポート。各Dayに「奥村視点」節を追加し、引用形式で原文を保持
+- 未審査写真271枚を目視審査し、229枚を本文採用、42枚をPhotos_Unusedへ整理（詳細はedit_log.md参照）
+
+### 次回深掘り候補
+
+- Artery Technology・Cmsemicon（電動車用コントローラー）との小ロット取引条件の継続確認
+- NIDECドライブホイール・コントローラーセットのサンプル評価
+
+---
