@@ -12,7 +12,7 @@
 |:---:|:---:|---|---|---|:---:|:---:|
 | — |  | 2025年1月31日 | [🇯🇵 日本／福島トヨペット 南会津店 視察](Reports/202501-FukushimaToyopet/Report.md) | 山崎・廣田GM | 10枚・1.7MB | — |
 | 2 days ago | ◎ | 2025年3月11日 | [🇩🇪 ドイツ／LogiMAT 2025（シュトゥットガルト）](Reports/202503-LogiMat/Report.md) | 山崎・中川・橋本GM | 89枚・13.8MB | [7/8](Reports/archive_log.md) |
-| — |  | 2025年4月15日 | [🇨🇳 中国／Electric China 2025（上海・天津）](Reports/202504-ElectricChina/Report.md) | 山崎・奥村 | 359枚・58.2MB | — |
+| Today | ★ | 2025年4月15日 | [🇨🇳 中国／Electric China 2025（上海・天津）](Reports/202504-ElectricChina/Report.md) | 山崎・奥村 | 276枚・41.4MB | [7/10](Reports/archive_log.md) |
 | — |  | 2025年6月18日 | [🇯🇵 日本／第38回 オートサービスショー2025（東京ビッグサイト）](Reports/202506-ASS/Report.md) | 山崎 | 23枚・3.8MB | — |
 | — |  | 2025年9月17日 | [🇯🇵 日本／Diet & Beauty Fair 2025（東京ビッグサイト）](Reports/202509-DietBeautyFair/Report.md) | 山崎 | 12枚・1.4MB | — |
 | 2 days ago | ◎ | 2025年10月30日 | [🇯🇵 日本／生成AI World・ロボット展示会 2025（名古屋）](Reports/202510-GenerativeAI/Report.md) | 山崎 他 | 12枚・1.8MB | [7/8](Reports/archive_log.md) |
@@ -28,6 +28,7 @@
 | — |  | 2026年6月11日 | [🇯🇵 日本／Interop Tokyo 2026（幕張メッセ）](Reports/202606-Interop26/Interop26-Report.md) | 山崎 | 48枚・12.4MB | — |
 | Today | ★ | 2026年6月12日 | [🇯🇵 日本／Robot Technology Japan 2026（Aichi Sky Expo）](Reports/202606-RobotTechJapan/RobotTechnologyJapan2606-Report.md) | 前川・奥村・佐倉 | 65枚・9.2MB | [7/10](Reports/archive_log.md) |
 | 1 week ago |  | 2026年6月25日 | [🇯🇵 日本／九州国際物流総合展 INNOVATION EXPO 2026（マリンメッセ福岡）](Reports/202606-InnovationEXPO/Report.md) | 山崎・前川 | 34枚・4.8MB | [7/3](Reports/archive_log.md) |
+| — |  | 2026年7月30日 | [🇻🇳 ベトナム／VILOG 2026（ホーチミン）※事前ブリーフィング](Reports/202607-VILOG/PreVisit_Briefing.md) | 山崎・岡部 | —（視察前） | — |
 
 <br>
 
@@ -119,12 +120,14 @@
 | Today | ★ | GMO AI&ロボティクス商事 | [GMO_AI_Robotics.md](KnowledgeBase/Companies/GMO_AI_Robotics.md) | 中国製ヒューマノイド・AMRの国内販売代理店。会場最大の集客ブース（iREX2025） |
 | Today | ★ | DMP | [DMP.md](KnowledgeBase/Companies/DMP.md) | パチンコ関連半導体商社。搬送装置を成長の柱に検討中。SEER Roboticsとの接点元（iREX2025） |
 | Now | ★ | Dendro Lift | [DendroLift.md](KnowledgeBase/Companies/DendroLift.md) | スウェーデン。移動型スタッカー整備リフト「DSS2 AquaShield」。雷電タイプの世界標準仕様の一つ（LogiMAT 2025） |
+| Now | ★ | NIDECドライブ・テクノロジー | [NIDEC_DriveTechnology.md](KnowledgeBase/Companies/NIDEC_DriveTechnology.md) | 中国・浙江省。遊星歯車減速機。Amazon採用実績あり。AGV/AMR駆動ユニットの調達候補（Electric China 2025） |
+| Now | ★ | HZO | [HZO.md](KnowledgeBase/Companies/HZO.md) | 基板・デバイス向け防水ナノコーティング。IoTセンサーの防水対策候補（Electric China 2025） |
 
 ### トレンド（Trends/）
 
 | 最終更新 |  | ファイル | 内容 |
 |:---:|:---:|---|---|
-| Today | ★ | [2025年トレンド](KnowledgeBase/Trends/2025.md) | LogiMAT 2025・生成AI World・EP Equipment実稼働・iREX2025（中国製ヒューマノイド10年差・SEERコモディティ化・GMO代理店参入）|
+| Now | ★ | [2025年トレンド](KnowledgeBase/Trends/2025.md) | LogiMAT 2025・Electric China 2025・生成AI World・EP Equipment実稼働・iREX2025（中国製ヒューマノイド10年差・SEERコモディティ化・GMO代理店参入）|
 | 6 days ago | △ | [2026年トレンド](KnowledgeBase/Trends/2026.md) | AMR当たり前化・IT侵食・Floor SLAM・電動アシスト急拡大・AI在庫管理実装・BIC北米訪問・RobotTechJapan2026（ヒューマノイド急増・AI×アーム標準化）他 |
 
 ### アイデア（Ideas/）
@@ -149,6 +152,7 @@
 | Yesterday | ◎ | [AMRトップモジュールとしてのリフト機器展開](KnowledgeBase/Ideas/AMR_TopModule_LiftDeployment.md) | Nord Modulesコンセプト。AMR本体開発なしでAMRエコシステムに参加 |
 | Now | ★ | [ZIPチェーンによるテーブル昇降装置](KnowledgeBase/Ideas/ZipChain_TableLift.md) | 椿本ZIPチェーン。薄型テーブルの省スペース昇降機構（優先度 高、RobotTechJapan2026） |
 | Now | ★ | [3D LiDARによるパレット・ワーク識別](KnowledgeBase/Ideas/LiDAR_PalletWorkID.md) | Doogサウザー由来。カメラに代わる高精度識別方式（優先度 高、RobotTechJapan2026） |
+| Now | ★ | [モーター・ドライブユニットの内製化検討](KnowledgeBase/Ideas/DriveUnit_InHouseProduction.md) | NIDEC事例・中国部品サプライチェーンを踏まえた内製化検討。月100〜500台が量産閾値（Electric China 2025） |
 
 <br>
 
