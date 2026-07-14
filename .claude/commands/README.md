@@ -12,6 +12,7 @@
   archive-report.md
   build-report.md
   StarUpdate.md
+  make-trip-schedule.md
 
   Config/
     FPL_STYLE.md
@@ -58,6 +59,10 @@ archive-report.md
 ### build-report.md
 
 統括役。`Reports/<フォルダー名>/` を対象に、各工程を順番に実行する。差分ビルド（前回ビルド以降の変更分のみ処理）に対応。
+
+### make-trip-schedule.md
+
+出発前の承認申請書担当。他の工程が帰国後のReport.md作成であるのに対し、これは出発前に社内フォーマット（社長・部門長承認欄付き）に沿った「海外出張スケジュール表」（A4横1枚・Word形式）を作る。Google Driveへの複製にも対応するが、セル結合が効かない等の制約があるため詳細はファイル本文を参照。
 
 ### StarUpdate.md
 
